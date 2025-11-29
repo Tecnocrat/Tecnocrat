@@ -18,19 +18,18 @@
 ## 📌 Featured Projects
 
 ### 📂 Portfolio
-#### 🌟 **Professional Portfolio Website**
-**Showcase of my work, experience, and technical expertise**
+**Professional Portfolio & Resume**
 
-> *A modern, responsive portfolio highlighting my journey as an AI Engineer and Technology Innovator*
+*Comprehensive showcase of technical expertise, project experience, and professional development in AI engineering and software development.*
 
-**🎯 Key Highlights:**
-- **Interactive Design** - Modern UI with smooth animations and responsive layout
-- **Project Showcase** - Featured projects including AIOS, development tools, and research
-- **Skills Overview** - Technical expertise in Python, C#, C++, AI/ML, and cloud technologies
-- **Experience Timeline** - Career progression and educational background
-- **Contact Integration** - Direct links to LinkedIn, GitHub, and email
+**Key Features:**
+- **Professional Presentation** - Clean, corporate design optimized for recruiters and industry professionals
+- **Technical Portfolio** - Detailed project showcases including AIOS, development tools, and research initiatives
+- **Skills Assessment** - Comprehensive overview of technical competencies across multiple programming languages and platforms
+- **Career Timeline** - Structured presentation of professional experience and educational background
+- **Direct Contact** - Integrated contact methods for professional networking and collaboration opportunities
 
-**🔗 Live Portfolio:** [**tecnocrat.github.io/Portfolio**](https://tecnocrat.github.io/Portfolio/)
+**Portfolio Link:** [**tecnocrat.github.io/Portfolio**](https://tecnocrat.github.io/Portfolio/)
 
 ---
 
