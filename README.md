@@ -1,18 +1,10 @@
 # 🚀 Tecnocrat
 
-```
-   _____                    _             _
-  |_   _|__ _ ___ _ _ ___ __| |_ __ ___ __| |___
-    | |/ _` / -_) '_|___(_-<  _/ _` \ V / -_)
-    |_|\__, \___|_|      /__/\__,_|\_/ \___|
-        |___/
-```
-
 *Building modular AI systems and practical dev tools. Balancing recruiter-friendly projects with visionary research.*
 
 ---
 
-## 🛠️ Tech Stack & Certifications
+## 🛠️ Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
@@ -20,8 +12,6 @@
 ![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-
-*Certified: AZ-900 (Azure Fundamentals)*
 
 ---
 
