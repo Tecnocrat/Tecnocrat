@@ -5,7 +5,7 @@
 			"name": "Github Profile"
 		},
 		{
-			"path": "docs",
+			"path": "./docs",
 			"name": "Documentation"
 		}
 	],

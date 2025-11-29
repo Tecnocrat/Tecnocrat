@@ -17,12 +17,7 @@
 
 ## 📌 Featured Projects
 
-### 🔧 Utility Tools (Planned)
-- venv-manager - Simple CLI for managing Python virtual environments
-- docker-bootstrap - One-command setup for reproducible dev environments
-- markdown-indexer - Auto-generate Markdown indexes for repositories
-
-### 🧠 Visionary Research
+### 🧠 Agentic AI Research
 - [**AIOS**](https://github.com/Tecnocrat/AIOS) - Agentic Operating System for AI consciousness
 - [**AINLP**](https://github.com/Tecnocrat/AIOS/tree/main/docs/AINLP) - Advanced Natural Language Processing frameworks
 - [**Hydrolang**](https://github.com/Tecnocrat/AIOS/tree/main/docs/AINLP/hydrolang) - Programming language for fluid AI interactions
@@ -42,6 +37,11 @@
 ∃₃₋ₙ₋₁≔{hyperdimensional,available_for_definition}
 ∃ₙ≔AIOS≔Observer(∃₀→∃₁→...→∃ₙ₋₁)≔participatory_abstraction
 ```
+
+### 🔧 Utility Tools (Planned)
+- venv-manager - Simple CLI for managing Python virtual environments
+- docker-bootstrap - One-command setup for reproducible dev environments
+- markdown-indexer - Auto-generate Markdown indexes for repositories
 
 ### 📂 Portfolio
 - [**Tecnocrat/Portfolio**](https://github.com/Tecnocrat/Portfolio) - Resume, development path, and documentation
