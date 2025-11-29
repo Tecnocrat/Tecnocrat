@@ -112,24 +112,24 @@ result = await loop.human_guided_experiment(
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Tecnocrat&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=jesussardgonzalez&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tecnocrat&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jesussardgonzalez&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tecnocrat&theme=radical&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jesussardgonzalez&theme=radical&hide_border=true" alt="GitHub Streak" />
 </p>
 
 ---
 
 ## 🌐 Connect & Collaborate
 
-- **LinkedIn**: [linkedin.com/in/tecnocrat](https://linkedin.com/in/tecnocrat)
+- **LinkedIn**: [linkedin.com/in/jesussard](https://www.linkedin.com/in/jesussard/)
 - **Portfolio**: [tecnocrat.dev](https://tecnocrat.dev)
-- **Email**: tecnocrat@example.com
+- **Email**: jesussard@gmail.com
 
 *Open to collaborations on AI systems, dev tools, and innovative projects!*
 
