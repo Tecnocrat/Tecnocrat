@@ -24,8 +24,8 @@
 
 ### 🧠 Visionary Research
 - [**AIOS**](https://github.com/Tecnocrat/AIOS) - Agentic Operating System for AI consciousness
-- [**AINLP**](https://github.com/Tecnocrat/Tecnocrat/tree/main/AIOS/docs/AINLP) - Advanced Natural Language Processing frameworks
-- [**Hydrolang**](https://github.com/Tecnocrat/Tecnocrat/tree/main/AIOS/Hydrolang) - Programming language for fluid AI interactions
+- [**AINLP**](https://github.com/Tecnocrat/AIOS/tree/main/docs/AINLP) - Advanced Natural Language Processing frameworks
+- [**Hydrolang**](https://github.com/Tecnocrat/AIOS/tree/main/docs/AINLP/hydrolang) - Programming language for fluid AI interactions
 
 #### Hydrolang Code Example
 ```hydrolang
