@@ -17,6 +17,23 @@
 
 ## 📌 Featured Projects
 
+### 📂 Portfolio
+#### 🌟 **Professional Portfolio Website**
+**Showcase of my work, experience, and technical expertise**
+
+> *A modern, responsive portfolio highlighting my journey as an AI Engineer and Technology Innovator*
+
+**🎯 Key Highlights:**
+- **Interactive Design** - Modern UI with smooth animations and responsive layout
+- **Project Showcase** - Featured projects including AIOS, development tools, and research
+- **Skills Overview** - Technical expertise in Python, C#, C++, AI/ML, and cloud technologies
+- **Experience Timeline** - Career progression and educational background
+- **Contact Integration** - Direct links to LinkedIn, GitHub, and email
+
+**🔗 Live Portfolio:** [**tecnocrat.github.io/Portfolio**](https://tecnocrat.github.io/Portfolio/)
+
+---
+
 ### 🧠 Agentic AI Research
 #### ⚛ AIOS - Artificial Intelligence Operative System
 
@@ -103,9 +120,6 @@ result = await loop.human_guided_experiment(
 - venv-manager - Simple CLI for managing Python virtual environments
 - docker-bootstrap - One-command setup for reproducible dev environments
 - markdown-indexer - Auto-generate Markdown indexes for repositories
-
-### 📂 Portfolio
-- [**Tecnocrat/Portfolio**](https://github.com/Tecnocrat/Portfolio) - Resume, development path, and documentation
 
 ---
 
