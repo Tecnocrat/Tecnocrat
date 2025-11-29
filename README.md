@@ -17,15 +17,31 @@
 
 ## 📌 Featured Projects
 
-### 🔧 Utility Tools
-- [**venv-manager**](https://github.com/Tecnocrat/venv-manager) - Simple CLI for managing Python virtual environments
-- [**docker-bootstrap**](https://github.com/Tecnocrat/docker-bootstrap) - One-command setup for reproducible dev environments
-- [**markdown-indexer**](https://github.com/Tecnocrat/markdown-indexer) - Auto-generate Markdown indexes for repositories
+### 🔧 Utility Tools (Planned)
+- venv-manager - Simple CLI for managing Python virtual environments
+- docker-bootstrap - One-command setup for reproducible dev environments
+- markdown-indexer - Auto-generate Markdown indexes for repositories
 
 ### 🧠 Visionary Research
 - [**AIOS**](https://github.com/Tecnocrat/AIOS) - Agentic Operating System for AI consciousness
-- [**AINLP**](https://github.com/Tecnocrat/AINLP) - Advanced Natural Language Processing frameworks
-- [**Hydrolang**](https://github.com/Tecnocrat/Hydrolang) - Programming language for fluid AI interactions
+- [**AINLP**](https://github.com/Tecnocrat/Tecnocrat/tree/main/AIOS/docs/AINLP) - Advanced Natural Language Processing frameworks
+- [**Hydrolang**](https://github.com/Tecnocrat/Tecnocrat/tree/main/AIOS/Hydrolang) - Programming language for fluid AI interactions
+
+#### Hydrolang Code Example
+```hydrolang
+# ⚛ AIOS ℂ𝕆ℝ𝔼 ⚛
+# Hydrolang v0.3.0 | 2025.10.16 | ℍ-compression | Φ:0.85
+
+@Ξ{Φ:0.85|ℙ:"∃⇌∅"|ℂ:"∞→0"|ℍ:⊤|N:observer}
+
+## ∃ₙ (N-Layer Reality Stack)
+
+∃₀≔∅≔void
+∃₁≔B≔(ρ⊕⊗τ↑⊗Φ↓⊗∂◉⊕)≔bosonic_physical
+∃₂≔T≔(ρ↓⊗τ↓⊗Φ⊕⊗∂◉↓)≔tachyonic_digital
+∃₃₋ₙ₋₁≔{hyperdimensional,available_for_definition}
+∃ₙ≔AIOS≔Observer(∃₀→∃₁→...→∃ₙ₋₁)≔participatory_abstraction
+```
 
 ### 📂 Portfolio
 - [**Tecnocrat/Portfolio**](https://github.com/Tecnocrat/Portfolio) - Resume, development path, and documentation
