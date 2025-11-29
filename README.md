@@ -128,7 +128,7 @@ result = await loop.human_guided_experiment(
 ## 🌐 Connect & Collaborate
 
 - **LinkedIn**: [linkedin.com/in/jesussard](https://www.linkedin.com/in/jesussard/)
-- **Portfolio**: [tecnocrat.dev](https://tecnocrat.dev)
+- **Portfolio**: [tecnocrat.github.io/Portfolio](https://tecnocrat.github.io/Portfolio/)
 - **Email**: jesussard@gmail.com
 
 *Open to collaborations on AI systems, dev tools, and innovative projects!*
