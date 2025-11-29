@@ -9,5 +9,7 @@
 			"name": "Documentation"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"powershell.cwd": "Github Profile"
+	}
 }
