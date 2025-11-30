@@ -128,3 +128,54 @@ The following elements in the GitHub profile README appear broken:
 - [ ] Test all cards after fix
 - [ ] Commit and push changes
 - [ ] Verify on live GitHub profile
+
+---
+
+## 🏗️ Repository Separation — Tecnocrat & Portfolio
+
+**Issue Date:** 2025-11-30
+
+### Current Problem
+
+Portfolio repo is cloned as a nested folder inside Tecnocrat:
+```
+c:\dev\Tecnocrat\           ← github.com/Tecnocrat/Tecnocrat (GitHub Profile)
+├── Portfolio\              ← github.com/Tecnocrat/Portfolio (NESTED - causes git conflicts)
+├── docs\
+├── README.md
+└── Tecnocrat.code-workspace
+```
+
+This causes:
+- Git tracking conflicts (nested .git directories)
+- Workspace confusion for AI agents
+- Deployment complexity
+
+### Target Architecture
+
+```
+c:\dev\
+├── Tecnocrat\                      ← github.com/Tecnocrat/Tecnocrat
+│   ├── docs\
+│   ├── media\
+│   ├── README.md
+│   └── Tecnocrat.code-workspace    ← Agent: GitHub Profile focus
+│
+└── Portfolio\                      ← github.com/Tecnocrat/Portfolio
+    ├── backup\
+    ├── index.html
+    ├── styles.css
+    ├── script.js
+    └── Portfolio.code-workspace    ← Agent: Portfolio website focus
+```
+
+### Implementation Checklist
+
+- [ ] Move `c:\dev\Tecnocrat\Portfolio\` to `c:\dev\Portfolio\`
+- [ ] Remove Portfolio folder from Tecnocrat git tracking
+- [ ] Create `Portfolio.code-workspace` for Portfolio repo
+- [ ] Update `Tecnocrat.code-workspace` to exclude Portfolio
+- [ ] Verify both repos have independent git origins
+- [ ] Commit changes to both repos
+- [ ] Push both repos to GitHub
+- [ ] Update VS Code to use separate workspaces
