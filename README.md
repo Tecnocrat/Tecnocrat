@@ -74,9 +74,51 @@
 
 ## 🧠 AIOS — Adaptive Intelligence Operating System
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Tecnocrat/Tecnocrat/main/media/diagrams/AIOS.png" width="600" alt="AIOS Architecture"/>
-</p>
+```mermaid
+flowchart TB
+    subgraph CORE["🧠 AIOS CORE"]
+        direction TB
+        AF[/"🔄 Adaptive Framework"\]
+        NI["🧬 Neural Intelligence"]
+        IS["🛡️ Immune System"]
+        MM["💾 Memory Matrix"]
+    end
+    
+    subgraph SERVICES["⚡ Service Layer"]
+        direction LR
+        HTTP["🌐 HTTP Bridge"]
+        WS["📡 WebSocket"]
+        MCP["🔌 MCP Server"]
+    end
+    
+    subgraph TOOLS["🔧 AI Tools (124+)"]
+        direction LR
+        T1["Code Analysis"]
+        T2["Security Scan"]
+        T3["Auto Healing"]
+    end
+    
+    subgraph SECURITY["🔒 Security Layer"]
+        direction LR
+        AUTH["🔐 Auth"]
+        CRYPT["🔏 Encryption"]
+        AUDIT["📋 Audit"]
+    end
+    
+    INPUT([" 📥 Input "]) --> SERVICES
+    SERVICES --> CORE
+    CORE --> TOOLS
+    CORE --> SECURITY
+    AF <--> NI
+    NI <--> IS
+    IS <--> MM
+    TOOLS --> OUTPUT([" 📤 Output "])
+    
+    style CORE fill:#667eea,stroke:#764ba2,color:#fff
+    style SERVICES fill:#00f5d4,stroke:#00b4d8,color:#000
+    style TOOLS fill:#f72585,stroke:#b5179e,color:#fff
+    style SECURITY fill:#4361ee,stroke:#3a0ca3,color:#fff
+```
 
 > **Enterprise AI infrastructure** with military-grade security and adaptive cognition.
 
