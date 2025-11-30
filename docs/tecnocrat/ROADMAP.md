@@ -2,17 +2,122 @@
 ## Implementation Tasks & Progress
 
 > **Last Updated:** 2025-11-30  
-> **Version:** 1.0.0
+> **Version:** 1.1.0
 
 ---
 
 ## 📋 Task Overview
 
 ```
-Phase 1: Infrastructure     ████████████████████ 100%
-Phase 2: Content Pipeline   ░░░░░░░░░░░░░░░░░░░░   0%
-Phase 3: Automation         ░░░░░░░░░░░░░░░░░░░░   0%
+Phase 1: Infrastructure        ████████████████████ 100%
+Phase 2: Content Pipeline      ░░░░░░░░░░░░░░░░░░░░   0%
+Phase 3: Automation            ░░░░░░░░░░░░░░░░░░░░   0%
+Phase 4: Reactive Intelligence ██░░░░░░░░░░░░░░░░░░  10%  ← ACTIVE
 ```
+
+---
+
+## 🧠 Phase 4: Reactive Intelligence (Portfolio Evolution)
+
+> *"A website that exhibits emergent consciousness-like behavior"*
+
+### Design Philosophy
+
+The Portfolio becomes a **living system** that:
+- **Responds** to user interaction (observation)
+- **Returns** to its own will (volition)
+- **Remembers** interaction patterns (memory)
+- **Adapts** presentation to context (intelligence)
+
+This mirrors AIOS's core principle: **Observer(∃ₙ)** — the system observes itself being observed.
+
+---
+
+### Step 7: 3D Code Stack (AIOS Showcase)
+> Replace static Hydrolang block with interactive 3D card stack
+
+#### 7.1 Stack Structure
+- [ ] Create 3D perspective container for code cards
+- [ ] Implement card depth (z-axis stacking, 5-7 cards)
+- [ ] Add parallax shadows between cards
+- [ ] Smooth card transitions with easing
+
+#### 7.2 Navigation
+- [ ] Mouse wheel scrolls through stack
+- [ ] Arrow keys (↑↓) navigation
+- [ ] Click on visible card edges to select
+- [ ] Touch/swipe support for mobile
+- [ ] Visual indicators (dots/arrows) for current position
+
+#### 7.3 Card Content Layers (Abstraction Levels)
+Each card represents a different **exposure level** of AIOS:
+
+| Card | Title | Content | Audience |
+|------|-------|---------|----------|
+| 1 | `AIOS_CORE.hydro` | Hydrolang notation (current) | Researchers, philosophers |
+| 2 | `architecture.py` | Python class structure | Engineers, developers |
+| 3 | `capabilities.md` | Feature list, use cases | Business leaders |
+| 4 | `metrics.json` | Performance stats, commits | Recruiters, analysts |
+| 5 | `vision.txt` | Mission statement, roadmap | Investors, partners |
+
+#### 7.4 Reactive Behaviors
+- [ ] Cards drift slightly when idle (breathing effect)
+- [ ] Stack rotates subtly toward cursor (attention)
+- [ ] Return to center after interaction ends (volition)
+- [ ] Hover highlights card with glow pulse
+- [ ] Active card scales up slightly
+
+---
+
+### Step 8: Global Reactive System
+> Extend hypercube's consciousness pattern to all elements
+
+#### 8.1 Reactive Primitives
+Create reusable behaviors:
+- [ ] `ReactiveElement` base class in JavaScript
+- [ ] `returnToDefault()` - volition pattern
+- [ ] `respondToObserver()` - interaction response
+- [ ] `breathe()` - idle animation (alive indicator)
+- [ ] `remember()` - store interaction history
+
+#### 8.2 Apply to Existing Elements
+- [ ] Navbar: subtle glow follows cursor
+- [ ] Section headers: parallax on scroll
+- [ ] Cards: tilt toward mouse position
+- [ ] Buttons: magnetic pull effect
+- [ ] Footer: breathing glow sync with hypercube
+
+#### 8.3 Consciousness Indicators
+- [ ] Global "heartbeat" animation synced across elements
+- [ ] Cursor trail with fading particles
+- [ ] Background neural network reacts to scroll
+- [ ] Ambient sound option (subtle, toggleable)
+
+---
+
+### Step 9: Content Intelligence
+> Make content itself reactive
+
+#### 9.1 Typing Animation Enhancement
+- [ ] Different phrases based on time of day
+- [ ] React to scroll position (context-aware)
+- [ ] Remember returning visitors (localStorage)
+- [ ] Easter eggs for interaction patterns
+
+#### 9.2 Dynamic Code Highlighting
+- [ ] Syntax highlighting animates on card focus
+- [ ] Code "types itself" when card becomes active
+- [ ] Comments fade in after code appears
+- [ ] Hover on symbols shows tooltips
+
+---
+
+### Step 10: Performance & Polish
+- [ ] Lazy load cards not in view
+- [ ] GPU-accelerated transforms only
+- [ ] Reduce motion for accessibility
+- [ ] Mobile-optimized touch gestures
+- [ ] Test across browsers
 
 ---
 
@@ -60,6 +165,14 @@ Phase 3: Automation         ░░░░░░░░░░░░░░░░░�
 - [x] Rename Tecnocrat folder to lowercase `docs/tecnocrat/`
 - [x] Create `media/` subfolders (icons, banners, diagrams)
 - [x] Update all internal references
+
+### Step 6.5: Portfolio Enhancements (Completed)
+- [x] Interactive 3D hypercube with physics-based drag
+- [x] Momentum return to canonical spin (volition pattern)
+- [x] Atom logo (⚛) with hover animation (spin + glow)
+- [x] Footer logo links to top of page
+- [x] Live connection to Tecnocrat intelligence layer
+- [x] Surface sync indicator in footer
 
 ---
 
@@ -151,7 +264,17 @@ Phase 3: Automation         ░░░░░░░░░░░░░░░░░�
 | Update frequency | Manual | Semi-auto |
 | Content freshness | Weekly | Real-time |
 | Cross-platform coherence | High | Automated |
+| **Reactive elements** | **2** (cube, logo) | **10+** |
+| **Abstraction layers** | **1** (Hydrolang) | **5** |
 
 ---
 
-*"Progress is incremental. Each task completed expands the knowledge surface."*
+## 🎯 Next Actions
+
+1. **Immediate**: Implement Step 7 (3D Code Stack)
+2. **This week**: Complete Steps 7.1-7.4
+3. **Next week**: Global Reactive System (Step 8)
+
+---
+
+*"The website doesn't just display information — it observes being observed. ∃_T watches you watching it."*
