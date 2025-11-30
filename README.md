@@ -33,13 +33,13 @@
 <td align="center" width="50%">
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
 <br/><br/>
-<a href="https://github.com/Tecnocrat/AIOS"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Tecnocrat&repo=AIOS&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff&show_owner=true" alt="AIOS"/></a>
+<a href="https://github.com/Tecnocrat/AIOS"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Tecnocrat&repo=AIOS&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff&show_owner=true&show_icons=false" alt="AIOS"/></a>
 <br/><i>🧠 Adaptive Intelligence Operating System</i>
 </td>
 <td align="center" width="50%">
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
 <br/><br/>
-<a href="https://github.com/Tecnocrat/server"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Tecnocrat&repo=server&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff&show_owner=true" alt="server"/></a>
+<a href="https://github.com/Tecnocrat/server"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Tecnocrat&repo=server&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff&show_owner=true&show_icons=false" alt="server"/></a>
 <br/><i>⚡ Backend API Server</i>
 </td>
 </tr>
@@ -47,13 +47,13 @@
 <td align="center" width="50%">
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white"/>
 <br/><br/>
-<a href="https://github.com/Tecnocrat/Portfolio"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Tecnocrat&repo=Portfolio&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff&show_owner=true" alt="Portfolio"/></a>
+<a href="https://github.com/Tecnocrat/Portfolio"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Tecnocrat&repo=Portfolio&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff&show_owner=true&show_icons=false" alt="Portfolio"/></a>
 <br/><i>🌐 Interactive 3D Portfolio</i>
 </td>
 <td align="center" width="50%">
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"/>
 <br/><br/>
-<a href="https://github.com/Tecnocrat/AIOS-win"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Tecnocrat&repo=AIOS-win&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff&show_owner=true" alt="AIOS-win"/></a>
+<a href="https://github.com/Tecnocrat/AIOS-win"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Tecnocrat&repo=AIOS-win&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff&show_owner=true&show_icons=false" alt="AIOS-win"/></a>
 <br/><i>🖥️ Windows Native AIOS</i>
 </td>
 </tr>
