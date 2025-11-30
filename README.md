@@ -64,8 +64,9 @@
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Tecnocrat&show_icons=true&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff&include_all_commits=true&count_private=true" alt="GitHub Stats" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tecnocrat&layout=compact&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&text_color=fff&langs_count=8" alt="Top Languages" height="180"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Tecnocrat&theme=radical" alt="GitHub Stats" height="180"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Tecnocrat&theme=radical" alt="Top Languages" height="180"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Tecnocrat&theme=radical" alt="Most Commit Language" height="180"/>
 </p>
 
 <p align="center">
