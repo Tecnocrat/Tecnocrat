@@ -5,10 +5,6 @@
 			"name": "Tecnocrat - GitHub Profile"
 		},
 		{
-			"path": "./docs",
-			"name": "Documentation"
-		},
-		{
 			"path": "../Portfolio",
 			"name": "📂 Portfolio (Reference)"
 		}
