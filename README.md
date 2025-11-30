@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://tecnocrat.dev"><img src="https://img.shields.io/badge/Portfolio-tecnocrat.dev-667eea?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://tecnocrat.github.io/Portfolio/"><img src="https://img.shields.io/badge/Portfolio-Live_Site-667eea?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio"/></a>
   <a href="mailto:jesussard@gmail.com"><img src="https://img.shields.io/badge/Email-jesussard%40gmail.com-00f5d4?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://www.linkedin.com/in/tecnocrat/"><img src="https://img.shields.io/badge/LinkedIn-tecnocrat-764ba2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 </p>
@@ -126,7 +126,7 @@
 </p>
 
 <p align="center">
-  <a href="https://tecnocrat.dev">🌐 tecnocrat.dev</a> • 
+  <a href="https://tecnocrat.github.io/Portfolio/">🌐 Portfolio</a> • 
   <a href="mailto:jesussard@gmail.com">📧 jesussard@gmail.com</a> • 
   <a href="https://www.linkedin.com/in/tecnocrat/">💼 LinkedIn</a>
 </p>
