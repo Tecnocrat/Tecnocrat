@@ -91,3 +91,54 @@ These attract stars and visits because they’re **immediately useful**.
 ---
 
 Would you like me to **draft a ready‑to‑paste README template** (with badges, stats, pinned repo placeholders) so you can instantly upgrade your profile?
+
+---
+
+## 🔧 Broken Links Fix — GitHub Profile README
+
+**Issue Date:** 2025-11-30
+
+The following elements in the GitHub profile README are broken:
+
+### Problem Analysis
+
+| Element | Current URL | Status | Root Cause |
+|---------|-------------|--------|------------|
+| AIOS Repo Pin | `github.com/Tecnocrat/AIOS` | ❌ Broken | Repo does not exist as separate repository |
+| Portfolio Repo Pin | `github.com/Tecnocrat/Portfolio` | ❌ Broken | Portfolio is a subfolder in Tecnocrat repo, not a separate repo |
+| Activity Graph | `theme=redical` | ❌ Broken | Typo: should be `radical` not `redical` |
+
+### Solution Options
+
+**Option A: Create Separate Repositories (Recommended)**
+- [ ] Create `github.com/Tecnocrat/AIOS` as standalone repo
+- [ ] Create `github.com/Tecnocrat/Portfolio` as standalone repo (for GitHub Pages)
+- [ ] Migrate code from Tecnocrat monorepo to individual repos
+- [ ] Update README pin cards to point to new repos
+
+**Option B: Update README to Use Existing Structure**
+- [ ] Replace AIOS pin card with Tecnocrat repo pin card
+- [ ] Remove Portfolio pin card (it's a subfolder, not a repo)
+- [ ] Add alternative visual elements (badges, direct links)
+- [ ] Fix activity graph typo: `redical` → `radical`
+
+**Option C: Hybrid Approach**
+- [ ] Keep Portfolio as subfolder (GitHub Pages works with `/Portfolio` path)
+- [ ] Create AIOS as separate repo when ready for public release
+- [ ] Update README to reflect current reality
+- [ ] Fix activity graph typo
+
+### Immediate Fixes Required
+
+- [ ] **Fix typo in activity graph URL:** Change `theme=redical` to `theme=radical`
+- [ ] **Update AIOS card:** Either create repo or replace with working alternative
+- [ ] **Update Portfolio card:** Either create separate repo or remove card
+
+### Implementation Checklist
+
+1. [ ] Decide on repository structure (monorepo vs multi-repo)
+2. [ ] Fix activity graph typo in README.md
+3. [ ] Create missing repos OR update cards to existing repos
+4. [ ] Test all links after changes
+5. [ ] Commit and push fixes
+6. [ ] Verify on live GitHub profile
