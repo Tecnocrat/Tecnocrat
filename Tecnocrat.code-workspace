@@ -2,7 +2,7 @@
 	"folders": [
 		{
 			"path": ".",
-			"name": "Github Profile"
+			"name": "Tecnocrat - GitHub Profile"
 		},
 		{
 			"path": "./docs",
@@ -10,6 +10,16 @@
 		}
 	],
 	"settings": {
-		"powershell.cwd": "Github Profile"
+		"powershell.cwd": "Tecnocrat - GitHub Profile",
+		"files.exclude": {
+			"**/.git": true
+		},
+		"editor.formatOnSave": true
+	},
+	"extensions": {
+		"recommendations": [
+			"yzhang.markdown-all-in-one",
+			"bierner.markdown-preview-github-styles"
+		]
 	}
 }

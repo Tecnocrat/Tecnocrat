@@ -33,7 +33,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Tecnocrat&theme=redical&hide_border=true&area=true" alt="Activity Graph" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Tecnocrat&theme=radical&hide_border=true&area=true" alt="Activity Graph" width="100%" />
 
 </div>
 
