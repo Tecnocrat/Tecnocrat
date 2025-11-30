@@ -1,25 +1,31 @@
 {
 	"folders": [
 		{
-			"name": "📂 Portfolio (Reference)",
-			"path": "../Portfolio"
+			"name": "⚛ Tecnocrat (GitHub Profile)",
+			"path": "."
 		},
 		{
-			"name": "Tecnocrat - GitHub Profile",
-			"path": "."
+			"name": "📂 Portfolio (Reference)",
+			"path": "../Portfolio"
 		}
 	],
 	"settings": {
-		"powershell.cwd": "Tecnocrat - GitHub Profile",
+		"powershell.cwd": "⚛ Tecnocrat (GitHub Profile)",
 		"files.exclude": {
 			"**/.git": true
 		},
-		"editor.formatOnSave": true
+		"editor.formatOnSave": true,
+		"explorer.fileNesting.enabled": true,
+		"explorer.fileNesting.patterns": {
+			"*.md": "${capture}.*.md",
+			"*.yaml": "${capture}.*.yaml"
+		}
 	},
 	"extensions": {
 		"recommendations": [
 			"yzhang.markdown-all-in-one",
-			"bierner.markdown-preview-github-styles"
+			"bierner.markdown-preview-github-styles",
+			"redhat.vscode-yaml"
 		]
 	}
 }

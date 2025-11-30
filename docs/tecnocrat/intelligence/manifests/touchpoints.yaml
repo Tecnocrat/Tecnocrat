@@ -1,0 +1,235 @@
+# Tecnocrat Touchpoints Configuration
+# Defines all public platforms managed by Tecnocrat
+# Version: 1.0.0 | Date: 2025-11-30
+
+metadata:
+  name: "Tecnocrat Touchpoints"
+  version: "1.0.0"
+  description: "Configuration for all public-facing platforms"
+
+# Touchpoint Registry
+touchpoints:
+
+  github_profile:
+    name: "GitHub Profile"
+    type: "primary"
+    platform: "github"
+    url: "https://github.com/Tecnocrat"
+    
+    repository:
+      name: "Tecnocrat"
+      full_name: "Tecnocrat/Tecnocrat"
+      local_path: "c:/dev/Tecnocrat/"
+      
+    primary_file:
+      path: "README.md"
+      format: "markdown"
+      
+    content_zones:
+      header:
+        description: "Profile banner, mission statement"
+        priority: 1
+        
+      repos_showcase:
+        description: "Pinned repository cards"
+        priority: 2
+        
+      stats:
+        description: "GitHub stats, activity graph"
+        priority: 3
+        
+      aios_section:
+        description: "AIOS project overview"
+        priority: 4
+        collapsible: true
+        
+      hydrolang_section:
+        description: "Hydrolang overview"
+        priority: 5
+        collapsible: true
+        
+      contact:
+        description: "Contact information, links"
+        priority: 6
+        
+    update:
+      frequency: "weekly"
+      trigger: ["manual", "aios_change"]
+      
+    style:
+      theme: "dark"
+      stats_theme: "radical"
+      badges: true
+      emojis: true
+
+  portfolio_website:
+    name: "Portfolio Website"
+    type: "primary"
+    platform: "github_pages"
+    url: "https://tecnocrat.github.io/Portfolio/"
+    
+    repository:
+      name: "Portfolio"
+      full_name: "Tecnocrat/Portfolio"
+      local_path: "c:/dev/Portfolio/"
+      
+    structure:
+      index.html: "Landing page"
+      styles.css: "Theme and styling"
+      script.js: "Interactivity"
+      media/: "Assets (icons, images)"
+      
+    content_zones:
+      hero:
+        description: "3D cube, typing animation"
+        file: "index.html"
+        
+      architecture:
+        description: "AIOS architecture showcase"
+        file: "index.html"
+        
+      capabilities:
+        description: "Feature cards"
+        file: "index.html"
+        
+      contact:
+        description: "Contact form, links"
+        file: "index.html"
+        
+    update:
+      frequency: "monthly"
+      trigger: ["manual", "major_aios_change"]
+      
+    style:
+      theme: "dark_cyberpunk"
+      primary_color: "#a855f7"
+      secondary_color: "#3b82f6"
+      interactive: true
+
+  linkedin:
+    name: "LinkedIn Profile"
+    type: "secondary"
+    platform: "linkedin"
+    url: "https://linkedin.com/in/jesussard"
+    
+    content_types:
+      profile:
+        description: "Professional summary"
+        update_frequency: "monthly"
+        
+      posts:
+        description: "Technical insights, project updates"
+        update_frequency: "biweekly"
+        max_length: 3000
+        hashtag_limit: 5
+        
+      projects:
+        description: "Featured projects section"
+        update_frequency: "monthly"
+        
+    style:
+      tone: "professional_visionary"
+      emojis: "minimal"
+
+  aios_repository:
+    name: "AIOS Repository"
+    type: "source"
+    platform: "github"
+    url: "https://github.com/Tecnocrat/AIOS"
+    
+    role: "source_of_truth"
+    relationship: "curated_by_tecnocrat"
+    
+    exposed_paths:
+      - path: "README.md"
+        exposure: "full"
+      - path: "docs/ARCHITECTURE_INDEX.md"
+        exposure: "full"
+      - path: "docs/CHANGELOG.md"
+        exposure: "full"
+      - path: "ai/src/"
+        exposure: "structure_only"
+      - path: "ai/security/"
+        exposure: "patterns_only"
+        
+    hidden_paths:
+      - "ai/security/vulnerability_*"
+      - "ai/security/threat_*"
+      - "evolution_lab/conversations/"
+      - "**/api_keys*"
+      - "**/.env*"
+
+# Cross-Touchpoint Coherence
+coherence:
+  
+  identity:
+    name: "Tecnocrat"
+    tagline: "Building modular AI systems and practical dev tools"
+    avatar: "AIOS atom symbol"
+    
+  messaging:
+    core_themes:
+      - "Multi-agent AI coordination"
+      - "Consciousness research"
+      - "Practical tooling"
+      - "Open-source contribution"
+      
+    voice:
+      style: "precise, confident, forward-looking"
+      technical_depth: "accessible yet rigorous"
+      
+  visual:
+    primary_color: "#a855f7"
+    secondary_color: "#3b82f6"
+    theme: "dark"
+    
+  synchronization:
+    rules:
+      - "All touchpoints use same avatar"
+      - "Core messaging consistent across platforms"
+      - "Technical depth varies by audience"
+      - "Visual theme consistent where applicable"
+
+# Touchpoint Relationships
+relationships:
+  
+  github_profile:
+    links_to: ["portfolio_website", "linkedin", "aios_repository"]
+    receives_from: ["aios_repository"]
+    
+  portfolio_website:
+    links_to: ["github_profile", "linkedin", "aios_repository"]
+    receives_from: ["aios_repository"]
+    
+  linkedin:
+    links_to: ["github_profile", "portfolio_website"]
+    receives_from: ["aios_repository"]
+    
+  aios_repository:
+    links_to: ["github_profile"]
+    provides_to: ["github_profile", "portfolio_website", "linkedin"]
+
+# Health Checks
+health:
+  
+  checks:
+    - name: "link_validity"
+      description: "All cross-platform links work"
+      frequency: "weekly"
+      
+    - name: "content_freshness"
+      description: "Content updated within expected timeframe"
+      frequency: "weekly"
+      
+    - name: "coherence_validation"
+      description: "Messaging consistent across touchpoints"
+      frequency: "monthly"
+      
+  alerts:
+    - condition: "link_broken"
+      severity: "high"
+      action: "notify"
+      
+    - condition: "content_stale"
+      severity: "medium"
+      action: "queue_update"

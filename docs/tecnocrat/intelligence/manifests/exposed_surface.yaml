@@ -1,0 +1,199 @@
+# Tecnocrat Knowledge Surface Manifest
+# Defines what AIOS knowledge is exposed to the public web
+# Version: 1.0.0 | Date: 2025-11-30
+
+metadata:
+  name: "Tecnocrat Knowledge Surface"
+  version: "1.0.0"
+  description: "Controls what AIOS knowledge is publicly visible"
+  last_updated: "2025-11-30"
+  curator: "Tecnocrat"
+
+# Exposure Levels
+# L0: Public - Anyone can see (landing pages, basic concepts)
+# L1: Professional - Recruiters, collaborators (skills, projects)
+# L2: Technical - Developers, researchers (architecture, patterns)
+# L3: Internal - Never exposed (vulnerabilities, raw state)
+
+exposure_levels:
+  L0_public:
+    description: "Visible to everyone"
+    audience: ["general_public", "visitors", "search_engines"]
+    
+  L1_professional:
+    description: "Visible to professional network"
+    audience: ["recruiters", "collaborators", "linkedin_connections"]
+    
+  L2_technical:
+    description: "Visible to technical community"
+    audience: ["developers", "researchers", "github_users"]
+    
+  L3_internal:
+    description: "Never publicly exposed"
+    audience: ["internal_only"]
+
+# Knowledge Surface Definition
+knowledge_surface:
+  
+  # HYDROLANG
+  hydrolang:
+    exposed:
+      - name: "core_concepts"
+        level: L2_technical
+        description: "N-Layer Reality Stack, Observer Abstraction, Hydrogen Principle"
+        source: "docs/sources/AIOS/AIOS_CORE.hydro"
+        transform: "abstract_concepts"
+        
+      - name: "symbolic_notation"
+        level: L2_technical
+        description: "∃, ⇌, ⟲ and other Hydrolang symbols"
+        source: "docs/sources/AIOS/AIOS_CORE.hydro"
+        transform: "glossary"
+        
+      - name: "philosophy"
+        level: L1_professional
+        description: "High-level consciousness research direction"
+        transform: "summary"
+        
+    hidden:
+      - name: "implementation_details"
+        reason: "Proprietary"
+      - name: "experimental_notation"
+        reason: "Unstable"
+
+  # SECURITY SUPERCELL
+  security:
+    exposed:
+      - name: "architecture_patterns"
+        level: L2_technical
+        description: "Digital immune system design, membrane validation"
+        transform: "abstract_patterns"
+        
+      - name: "concept_overview"
+        level: L1_professional
+        description: "Security-first AI development approach"
+        transform: "badge_and_summary"
+        
+    hidden:
+      - name: "vulnerability_reports"
+        reason: "Security risk"
+      - name: "threat_models"
+        reason: "Security risk"
+      - name: "test_cases"
+        reason: "Implementation details"
+
+  # EVOLUTION LAB
+  evolution:
+    exposed:
+      - name: "successful_experiments"
+        level: L2_technical
+        description: "Multi-agent code generation results"
+        transform: "curated_demos"
+        
+      - name: "methodology"
+        level: L1_professional
+        description: "AI-assisted development approach"
+        transform: "process_summary"
+        
+    hidden:
+      - name: "failed_experiments"
+        reason: "Not representative"
+      - name: "raw_conversations"
+        reason: "Noise, personal"
+      - name: "neural_chains"
+        reason: "Implementation detail"
+
+  # RUNTIME INTELLIGENCE
+  runtime:
+    exposed:
+      - name: "tool_count"
+        level: L0_public
+        description: "43 diagnostic tools"
+        transform: "badge_number"
+        
+      - name: "capabilities_overview"
+        level: L1_professional
+        description: "Monitoring, diagnostics, optimization"
+        transform: "feature_list"
+        
+    hidden:
+      - name: "internal_metrics"
+        reason: "Sensitive"
+      - name: "system_state"
+        reason: "Security"
+
+  # MULTI-LANGUAGE STACK
+  stack:
+    exposed:
+      - name: "languages"
+        level: L0_public
+        description: "Python 3.12+, C++17, C# .NET 8.0"
+        transform: "shields_badges"
+        
+      - name: "architecture"
+        level: L2_technical
+        description: "Multi-language coordination"
+        transform: "diagram"
+        
+    hidden:
+      - name: "build_internals"
+        reason: "Implementation"
+
+# Touchpoint Mapping
+touchpoints:
+  github_profile:
+    content:
+      - hydrolang.core_concepts
+      - security.concept_overview
+      - evolution.methodology
+      - runtime.tool_count
+      - stack.languages
+    format: "README.md"
+    update_frequency: "weekly"
+    
+  portfolio_website:
+    content:
+      - hydrolang.philosophy
+      - hydrolang.core_concepts
+      - security.architecture_patterns
+      - evolution.successful_experiments
+      - stack.architecture
+    format: "HTML/CSS/JS"
+    update_frequency: "monthly"
+    
+  linkedin:
+    content:
+      - hydrolang.philosophy
+      - security.concept_overview
+      - evolution.methodology
+      - stack.languages
+    format: "posts, project_descriptions"
+    update_frequency: "biweekly"
+    
+  aios_repo:
+    content:
+      - "*"  # All exposed content
+    format: "README.md, docs/"
+    update_frequency: "continuous"
+
+# Safety Rules
+safety:
+  never_expose:
+    - "vulnerability_reports"
+    - "threat_models"
+    - "api_keys"
+    - "credentials"
+    - "internal_paths"
+    - "personal_data"
+    - "failed_experiments"
+    - "raw_consciousness_state"
+    
+  always_review:
+    - "security_related_content"
+    - "experimental_results"
+    - "new_capabilities"
+    
+  auto_approved:
+    - "stable_documentation"
+    - "public_metrics"
+    - "established_concepts"

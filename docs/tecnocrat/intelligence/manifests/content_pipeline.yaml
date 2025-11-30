@@ -1,0 +1,215 @@
+# Tecnocrat Content Pipeline
+# Defines how AIOS artifacts are transformed into public content
+# Version: 1.0.0 | Date: 2025-11-30
+
+metadata:
+  name: "Tecnocrat Content Pipeline"
+  version: "1.0.0"
+  description: "Transformation rules from AIOS to public web"
+
+# Pipeline Stages
+pipeline:
+  stages:
+    - name: "source"
+      description: "Raw AIOS artifact"
+      input: "AIOS internal files"
+      output: "artifact_reference"
+      
+    - name: "curate"
+      description: "Select and filter"
+      input: "artifact_reference"
+      output: "curated_content"
+      operations:
+        - "check_exposure_level"
+        - "apply_safety_rules"
+        - "select_abstraction_level"
+        
+    - name: "transform"
+      description: "Convert format"
+      input: "curated_content"
+      output: "transformed_content"
+      operations:
+        - "apply_template"
+        - "convert_format"
+        - "add_metadata"
+        
+    - name: "publish"
+      description: "Deploy to touchpoint"
+      input: "transformed_content"
+      output: "published_content"
+      operations:
+        - "validate_output"
+        - "deploy_to_platform"
+        - "verify_deployment"
+
+# Content Types
+content_types:
+  
+  readme_section:
+    description: "Markdown section for README files"
+    format: "markdown"
+    template: |
+      ## {section_title}
+      
+      {content}
+      
+      {badges}
+    platforms: ["github_profile", "aios_repo"]
+    
+  portfolio_page:
+    description: "HTML content for portfolio website"
+    format: "html"
+    template: |
+      <section class="{section_class}">
+        <h2>{title}</h2>
+        <div class="content">
+          {content}
+        </div>
+      </section>
+    platforms: ["portfolio"]
+    
+  linkedin_post:
+    description: "Professional post for LinkedIn"
+    format: "text"
+    constraints:
+      max_length: 3000
+      style: "professional"
+      hashtags: 3-5
+    platforms: ["linkedin"]
+    
+  project_card:
+    description: "Project showcase card"
+    format: "markdown"
+    template: |
+      ### {project_name}
+      
+      {description}
+      
+      **Tech:** {technologies}
+      
+      [{link_text}]({link_url})
+    platforms: ["github_profile", "linkedin"]
+
+# Transformation Rules
+transformations:
+  
+  hydro_file:
+    description: "Transform Hydrolang to explanatory content"
+    steps:
+      - extract_concepts
+      - generate_explanations
+      - create_diagram
+    output_formats: ["readme_section", "portfolio_page"]
+    
+  python_module:
+    description: "Transform Python code to feature description"
+    steps:
+      - extract_docstrings
+      - extract_functions
+      - generate_overview
+    output_formats: ["readme_section", "project_card"]
+    
+  experiment_result:
+    description: "Transform experiment to demo showcase"
+    steps:
+      - validate_success
+      - extract_highlights
+      - create_demo
+    output_formats: ["portfolio_page", "linkedin_post"]
+    
+  architecture_doc:
+    description: "Transform architecture to visual diagram"
+    steps:
+      - extract_components
+      - extract_connections
+      - generate_diagram
+    output_formats: ["readme_section", "portfolio_page"]
+
+# Platform-Specific Rules
+platforms:
+  
+  github_profile:
+    name: "GitHub Profile README"
+    file: "README.md"
+    format: "markdown"
+    constraints:
+      max_length: 10000
+      must_include: ["badges", "stats", "pinned_repos"]
+    style:
+      tone: "professional_technical"
+      emojis: true
+      collapsible_sections: true
+      
+  portfolio:
+    name: "Portfolio Website"
+    path: "c:/dev/Portfolio/"
+    format: "html_css_js"
+    constraints:
+      responsive: true
+      interactive: true
+    style:
+      theme: "dark_cyberpunk"
+      animations: true
+      
+  linkedin:
+    name: "LinkedIn"
+    format: "text"
+    constraints:
+      max_post_length: 3000
+      max_hashtags: 5
+    style:
+      tone: "professional_visionary"
+      emojis: "minimal"
+      
+  aios_repo:
+    name: "AIOS Repository"
+    url: "github.com/Tecnocrat/AIOS"
+    format: "markdown"
+    constraints:
+      technical_depth: "high"
+    style:
+      tone: "technical_documentation"
+
+# Automation Triggers
+automation:
+  
+  on_aios_change:
+    trigger: "AIOS repo commit"
+    actions:
+      - evaluate_exposure
+      - transform_if_exposed
+      - queue_for_review
+      
+  scheduled:
+    github_profile:
+      frequency: "weekly"
+      actions: ["refresh_stats", "update_badges"]
+      
+    portfolio:
+      frequency: "monthly"
+      actions: ["sync_content", "update_demos"]
+      
+    linkedin:
+      frequency: "biweekly"
+      actions: ["generate_post_draft"]
+
+# Quality Gates
+quality_gates:
+  
+  before_publish:
+    - name: "safety_check"
+      description: "Ensure no hidden content exposed"
+      fail_action: "block"
+      
+    - name: "format_validation"
+      description: "Validate output format"
+      fail_action: "warn"
+      
+    - name: "link_check"
+      description: "Verify all links work"
+      fail_action: "warn"
+      
+    - name: "content_review"
+      description: "Human review for sensitive content"
+      trigger: "security_related OR experimental"
+      fail_action: "queue_for_review"
