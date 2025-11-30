@@ -1,12 +1,12 @@
 {
 	"folders": [
 		{
-			"path": ".",
-			"name": "Tecnocrat - GitHub Profile"
+			"name": "📂 Portfolio (Reference)",
+			"path": "../Portfolio"
 		},
 		{
-			"path": "../Portfolio",
-			"name": "📂 Portfolio (Reference)"
+			"name": "Tecnocrat - GitHub Profile",
+			"path": "."
 		}
 	],
 	"settings": {
