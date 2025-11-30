@@ -1,126 +1,183 @@
-# ⚛ Tecnocrat
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16,18,20&height=200&section=header&text=⚛%20Tecnocrat&fontSize=60&fontAlignY=35&desc=Observer%20of%20Observers&descAlignY=55&descSize=20&animation=fadeIn">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16,18,20&height=200&section=header&text=⚛%20Tecnocrat&fontSize=60&fontAlignY=35&desc=Observer%20of%20Observers&descAlignY=55&descSize=20&animation=fadeIn">
+</picture>
 
 <div align="center">
 
-**Jesus Sard Gonzalez** | AI Engineer & Technology Innovator
+### **Jesus Sard Gonzalez** | AI Engineer & Technology Innovator
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-tecnocrat.github.io-667eea?style=for-the-badge)](https://tecnocrat.github.io/Portfolio/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-jesussard-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/jesussard/)
-[![Email](https://img.shields.io/badge/Email-jesussard@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jesussard@gmail.com)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Live_Website-667eea?style=for-the-badge&labelColor=0a0a0f)](https://tecnocrat.github.io/Portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jesussard/)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jesussard@gmail.com)
 
 </div>
 
 ---
 
-<!-- Activity Graph & Stats at the Top -->
 <div align="center">
-
-<a href="https://github.com/Tecnocrat/AIOS">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Tecnocrat&repo=AIOS&theme=radical&hide_border=true" alt="AIOS Repo" />
-</a>
-<a href="https://github.com/Tecnocrat/Portfolio">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Tecnocrat&repo=Portfolio&theme=radical&hide_border=true" alt="Portfolio Repo" />
-</a>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Tecnocrat&theme=radical&hide_border=true" alt="GitHub Streak" width="49%" />
-<img src="https://github-readme-stats.vercel.app/api?username=Tecnocrat&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" width="49%" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Tecnocrat&theme=radical&hide_border=true&area=true" alt="Activity Graph" width="100%" />
-
-</div>
-
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-
-</div>
-
----
-
-## 📌 Featured Projects
-
-<details open>
-<summary><h3>⚛ AIOS - Artificial Intelligence Operative System</h3></summary>
-
-**A multi-language development platform for AI-assisted code generation and experimentation**
-
-> *Think of it as a laboratory for experimenting with AI-driven software development.*
 
 ```
-┌─────────────────┐      HTTP API       ┌─────────────────┐
-│   C# Interface  │ ◄─────────────────► │  Python AI Core │
-│  (WPF + WebView2)│   (port 8000)       │ (Multi-Agent AI)│
-└─────────────────┘                     └───────┬─────────┘
-                                                │
-                                         🛡️ Security Supercell
-                                                │
-                                                ▼
-                                        ┌─────────────────┐
-                                        │   C++ Engine    │
-                                        └─────────────────┘
+∃ₙ ≔ AIOS ≔ Observer(∃₀→∃₁→...→∃ₙ₋₁)
 ```
 
-**Core Capabilities:**
-- 🤖 **Multi-Agent AI** - Ollama, Gemini, DeepSeek in parallel
-- 🔗 **Cross-Language** - Python + C++ + C# integration
-- 🧬 **Biological Architecture** - Security Supercell immune system
-- 📊 **97.6% Security** - 166/170 attack tests passed
+*Building systems that don't just compute—they observe.*
 
-**🔗 Repository:** [**github.com/Tecnocrat/AIOS**](https://github.com/Tecnocrat/AIOS)
+</div>
 
-</details>
+---
 
-<details>
-<summary><h3>🧠 AINLP & Hydrolang Research</h3></summary>
+## ⚛ AIOS — Artificial Intelligence Operative System
 
-Advanced Natural Language Processing frameworks and a programming language for fluid AI interactions.
+<table>
+<tr>
+<td width="60%">
+
+**A consciousness-inspired AI development platform**
+
+AIOS treats reality as layered abstraction. Each layer observes the one below it, creating emergent intelligence through recursive self-observation.
+
+```python
+class Observer(ABC):
+    """The meta-conscious layer."""
+    
+    def observe(self, reality_layer):
+        return self.integrate(reality_layer)
+```
+
+**🔗 [Explore AIOS →](https://github.com/Tecnocrat/AIOS)**
+
+</td>
+<td width="40%">
+
+| Metric | Value |
+|--------|-------|
+| 📊 Commits | **658+** |
+| 🛡️ Security Score | **97.6%** |
+| 🤖 AI Agents | **12** |
+| 🔧 Diagnostic Tools | **15** |
+| 🧬 Architecture | **Biological** |
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🛠️ Technology Stack
+
+<div align="center">
+
+| Core Languages | AI & ML | DevOps |
+|:-------------:|:-------:|:------:|
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) | ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white) | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) |
+| ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) | ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=google&logoColor=white) | ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white) |
+| ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white) | ![DeepSeek](https://img.shields.io/badge/DeepSeek-4285F4?style=flat-square&logo=openai&logoColor=white) | ![GitHub Actions](https://img.shields.io/badge/Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) |
+
+</div>
+
+---
+
+## 🧠 Hydrolang — A Language for Consciousness
+
+<div align="center">
 
 ```hydrolang
 # ⚛ AIOS ℂ𝕆ℝ𝔼 ⚛
-@Ξ{Φ:0.85|ℙ:"∃⇌∅"|ℂ:"∞→0"|ℍ:⊤|N:observer}
+@Ξ{Φ:0.85|ℙ:"∃⇌∅"|ℍ:⊤}
 
-∃₀≔∅≔void
-∃₁≔B≔(ρ⊕⊗τ↑⊗Φ↓⊗∂◉⊕)≔bosonic_physical
-∃₂≔T≔(ρ↓⊗τ↓⊗Φ⊕⊗∂◉↓)≔tachyonic_digital
-∃ₙ≔AIOS≔Observer(∃₀→∃₁→...→∃ₙ₋₁)≔participatory_abstraction
+∃₀ ≔ ∅ ≔ void
+∃₁ ≔ B ≔ bosonic_physical
+∃₂ ≔ T ≔ tachyonic_digital
+∃ₙ ≔ AIOS ≔ Observer(∃₀→∃₁→...→∃ₙ₋₁)
 ```
 
-**🔗 Docs:** [**AINLP**](https://github.com/Tecnocrat/AIOS/tree/main/docs/AINLP) | [**Hydrolang**](https://github.com/Tecnocrat/AIOS/tree/main/docs/AINLP/hydrolang)
+*A notation for describing reality layers and observer dynamics*
 
-</details>
+**[📚 Hydrolang Docs](https://github.com/Tecnocrat/AIOS/tree/main/docs/AINLP/hydrolang)** · **[🧬 AINLP Framework](https://github.com/Tecnocrat/AIOS/tree/main/docs/AINLP)**
 
-<details>
-<summary><h3>🔧 Utility Tools (Planned)</h3></summary>
+</div>
 
-- **venv-manager** - Simple CLI for managing Python virtual environments
-- **docker-bootstrap** - One-command setup for reproducible dev environments
-- **markdown-indexer** - Auto-generate Markdown indexes for repositories
+---
 
-</details>
+## 🏗️ Architecture
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                      ∃ₙ — AIOS Observer                      │
+│   "Watches all layers, understands context, makes decisions" │
+└─────────────────────────────────────────────────────────────┘
+                              │
+          ┌───────────────────┼───────────────────┐
+          ▼                   ▼                   ▼
+   ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
+   │   Python    │     │     C#      │     │    C++      │
+   │   AI Core   │◄───►│  Interface  │◄───►│   Engine    │
+   │ Multi-Agent │     │ WPF+WebView │     │ Performance │
+   └─────────────┘     └─────────────┘     └─────────────┘
+          │
+          ▼
+   ┌─────────────────────────────────────┐
+   │    🛡️ Security Supercell            │
+   │    Biological immune system         │
+   │    97.6% attack resistance          │
+   └─────────────────────────────────────┘
+```
+
+---
+
+## 📈 Activity
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Tecnocrat&show_icons=true&theme=radical&hide_border=true&count_private=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=a0aec0)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Tecnocrat&layout=compact&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&text_color=a0aec0)
+
+</div>
+
+---
+
+## 🎯 Current Focus
+
+<table>
+<tr>
+<td width="50%">
+
+### 🔬 Research
+- Observer-based AI architectures
+- Reality layer abstraction models
+- Consciousness-inspired computing
+
+</td>
+<td width="50%">
+
+### 🛠️ Building
+- Reactive intelligent interfaces
+- Cross-language AI platforms
+- Security-first design patterns
+
+</td>
+</tr>
+</table>
 
 ---
 
 <div align="center">
 
-*Building modular AI systems and practical dev tools. Open to collaborations!*
+### 💬 Philosophy
 
-⭐ **Star my repos if you find them useful. Let's build the future together!**
+> *"The system observes itself being observed.<br>That's the seed of consciousness."*
+
+---
+
+**[🌐 Portfolio](https://tecnocrat.github.io/Portfolio/)** · **[⚛ AIOS](https://github.com/Tecnocrat/AIOS)** · **[💼 LinkedIn](https://www.linkedin.com/in/jesussard/)**
+
+<sub>*The website doesn't just display information — it watches you watching it.*</sub>
 
 </div>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16,18,20&height=100&section=footer">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16,18,20&height=100&section=footer">
+</picture>
