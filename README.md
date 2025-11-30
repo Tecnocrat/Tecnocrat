@@ -28,45 +28,26 @@
 
 ## 📦 Featured Repositories
 
-<table align="center">
-<tr>
-<td align="center" width="50%">
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-<br/><br/>
-<a href="https://github.com/Tecnocrat/AIOS"><img src="https://img.shields.io/badge/AIOS-667eea?style=for-the-badge&logo=github&logoColor=white" alt="AIOS"/></a>
-<br/><i>🧠 Adaptive Intelligence Operating System</i>
-</td>
-<td align="center" width="50%">
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-<br/><br/>
-<a href="https://github.com/Tecnocrat/server"><img src="https://img.shields.io/badge/server-667eea?style=for-the-badge&logo=github&logoColor=white" alt="server"/></a>
-<br/><i>⚡ Backend API Server</i>
-</td>
-</tr>
-<tr>
-<td align="center" width="50%">
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/> <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white"/>
-<br/><br/>
-<a href="https://github.com/Tecnocrat/Portfolio"><img src="https://img.shields.io/badge/Portfolio-667eea?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio"/></a>
-<br/><i>🌐 Interactive 3D Portfolio</i>
-</td>
-<td align="center" width="50%">
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"/>
-<br/><br/>
-<a href="https://github.com/Tecnocrat/AIOS-win"><img src="https://img.shields.io/badge/AIOS--win-667eea?style=for-the-badge&logo=github&logoColor=white" alt="AIOS-win"/></a>
-<br/><i>🖥️ Windows Native AIOS</i>
-</td>
-</tr>
-</table>
+<p align="center">
+  <a href="https://github.com/Tecnocrat/AIOS"><img src="https://github-readme-stats-silk-beta-22.vercel.app/api/pin/?username=Tecnocrat&repo=AIOS&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff" alt="AIOS"/></a>
+  <a href="https://github.com/Tecnocrat/server"><img src="https://github-readme-stats-silk-beta-22.vercel.app/api/pin/?username=Tecnocrat&repo=server&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff" alt="server"/></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Tecnocrat/Portfolio"><img src="https://github-readme-stats-silk-beta-22.vercel.app/api/pin/?username=Tecnocrat&repo=Portfolio&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff" alt="Portfolio"/></a>
+  <a href="https://github.com/Tecnocrat/AIOS-win"><img src="https://github-readme-stats-silk-beta-22.vercel.app/api/pin/?username=Tecnocrat&repo=AIOS-win&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff" alt="AIOS-win"/></a>
+</p>
 
 ---
 
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Tecnocrat&theme=radical" alt="GitHub Stats" height="180"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Tecnocrat&theme=radical" alt="Top Languages" height="180"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Tecnocrat&theme=radical" alt="Most Commit Language" height="180"/>
+  <img src="https://github-readme-stats-silk-beta-22.vercel.app/api?username=Tecnocrat&show_icons=true&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff&include_all_commits=true&count_private=true" alt="GitHub Stats" height="180"/>
+  <img src="https://github-readme-stats-silk-beta-22.vercel.app/api/top-langs/?username=Tecnocrat&layout=compact&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&text_color=fff&langs_count=8" alt="Top Languages" height="180"/>
+</p>
+
+<p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Tecnocrat&theme=radical&utcOffset=1" alt="Productive Time" height="180"/>
 </p>
 
