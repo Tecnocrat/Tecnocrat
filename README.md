@@ -1,245 +1,117 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,50:764ba2,100:00f5d4&height=220&section=header&text=Jesus%20Sard%20Gonzalez&fontSize=48&fontAlignY=32&desc=AI%20Engineer%20%20%E2%80%A2%20%20Systems%20Architect%20%20%E2%80%A2%20%20Full%20Stack&descAlignY=52&descSize=20&fontColor=ffffff&animation=fadeIn">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,50:764ba2,100:00f5d4&height=220&section=header&text=Jesus%20Sard%20Gonzalez&fontSize=48&fontAlignY=32&desc=AI%20Engineer%20%20%E2%80%A2%20%20Systems%20Architect%20%20%E2%80%A2%20%20Full%20Stack&descAlignY=52&descSize=20&fontColor=ffffff&animation=fadeIn">
-</picture>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,15,20&height=180&section=header&text=Jesus%20Sard%20Gonzalez&fontSize=42&fontAlignY=35&desc=Tecnocrat&descSize=20&descAlignY=55&animation=fadeIn&fontColor=fff" width="100%"/>
+</p>
 
-<div align="center">
+<p align="center">
+  <a href="https://tecnocrat.dev"><img src="https://img.shields.io/badge/Portfolio-tecnocrat.dev-667eea?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+  <a href="mailto:jesussard@gmail.com"><img src="https://img.shields.io/badge/Email-jesussard%40gmail.com-00f5d4?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://www.linkedin.com/in/tecnocrat/"><img src="https://img.shields.io/badge/LinkedIn-tecnocrat-764ba2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+</p>
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Live-667eea?style=for-the-badge&labelColor=0a0a0f)](https://tecnocrat.github.io/Portfolio/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jesussard/)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jesussard@gmail.com)
+---
 
-**Building AI systems that learn, adapt, and scale.**
+## 📊 Contribution Graph
 
-</div>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Tecnocrat&theme=react-dark&bg_color=0a0a0f&color=667eea&line=00f5d4&point=764ba2&area=true&hide_border=true&radius=16" width="100%"/>
+</p>
+
+---
+
+## 🔥 Streak Stats
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tecnocrat&theme=radical&hide_border=true&background=0a0a0f&ring=667eea&fire=00f5d4&currStreakLabel=764ba2&sideNums=ffffff&sideLabels=667eea" alt="GitHub Streak"/>
+</p>
+
+---
+
+## 📦 Featured Repositories
+
+<p align="center">
+  <a href="https://github.com/Tecnocrat/AIOS"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Tecnocrat&repo=AIOS&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff" alt="AIOS"/></a>
+  <a href="https://github.com/Tecnocrat/server"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Tecnocrat&repo=server&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff" alt="server"/></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Tecnocrat/Portfolio"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Tecnocrat&repo=Portfolio&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff" alt="Portfolio"/></a>
+  <a href="https://github.com/Tecnocrat/AIOS-win"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Tecnocrat&repo=AIOS-win&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff" alt="AIOS-win"/></a>
+</p>
+
+---
+
+## 📈 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Tecnocrat&show_icons=true&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff&include_all_commits=true&count_private=true" alt="GitHub Stats" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tecnocrat&layout=compact&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&text_color=fff&langs_count=8" alt="Top Languages" height="180"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Tecnocrat&theme=radical" alt="Profile Summary" width="100%"/>
+</p>
 
 ---
 
 ## 🛠️ Tech Stack
 
-<div align="center">
-
-| **Languages** | **AI/ML** | **Infrastructure** |
-|:-------------:|:---------:|:------------------:|
-| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white) | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![HuggingFace](https://img.shields.io/badge/🤗_Transformers-FFD21E?style=flat-square) | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Vault](https://img.shields.io/badge/Vault-FFEC6E?style=flat-square&logo=vault&logoColor=black) |
-| ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white) | ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white) ![spaCy](https://img.shields.io/badge/spaCy-09A3D5?style=flat-square&logo=spacy&logoColor=white) | ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) |
-| ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![.NET](https://img.shields.io/badge/.NET_8-512BD4?style=flat-square&logo=dotnet&logoColor=white) | ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F61?style=flat-square) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) | ![Traefik](https://img.shields.io/badge/Traefik-24A1C1?style=flat-square&logo=traefik&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) |
-
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+</p>
 
 ---
 
-## ⚛ Featured Project: AIOS
+## 🧠 AIOS — Adaptive Intelligence Operating System
 
-**Artificial Intelligence Operative System** — A multi-language AI platform with cross-process orchestration.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Tecnocrat/Tecnocrat/main/media/diagrams/AIOS.png" width="600" alt="AIOS Architecture"/>
+</p>
 
-<table>
+> **Enterprise AI infrastructure** with military-grade security and adaptive cognition.
+
+<table align="center">
 <tr>
-<td width="55%">
-
-### 🏗️ Three-Layer Architecture
-
-```
-┌────────────────────────────────────────┐
-│     C# Interface Layer (.NET 8 WPF)    │
-│         REST Client ← HTTP →           │
-├────────────────────────────────────────┤
-│     Python AI Layer (FastAPI 0.100+)   │
-│   LLM Orchestration │ Security Layer   │
-├────────────────────────────────────────┤
-│     C++ Performance Engine (CMake)     │
-│   Core Algorithms │ pybind11 bindings  │
-└────────────────────────────────────────┘
-```
-
-### 🔧 Key Components
-
-- **FastAPI REST Bridge** — Python↔C# communication on port 8001
-- **Multi-LLM Orchestration** — Ollama, Gemini, DeepSeek in parallel
-- **100+ Runtime Tools** — Dynamic discovery and execution
-- **Immune Memory** — Attack pattern learning with signature matching
-
-</td>
-<td width="45%">
-
-### 📊 Project Stats
-
-| Metric | Value |
-|--------|-------|
-| 🔒 Security Tests | **170 passed** |
-| 🛡️ Attack Resistance | **97.6%** |
-| 🔧 AI Tools | **124+ discovered** |
-| 📦 Python Modules | **769+** |
-| 🔗 Dependencies | **113+ managed** |
-| 📝 Lines of Code | **15,847+** |
-
-### 🔗 Repositories
-
-[![AIOS](https://img.shields.io/badge/⚛_AIOS-Core_Platform-667eea?style=for-the-badge)](https://github.com/Tecnocrat/AIOS)
-
-[![server](https://img.shields.io/badge/🐳_server-Docker_Stacks-2496ED?style=for-the-badge)](https://github.com/Tecnocrat/server)
-
-[![AIOS-win](https://img.shields.io/badge/🪟_AIOS--win-Windows_Deploy-0078D4?style=for-the-badge)](https://github.com/Tecnocrat/AIOS-win)
-
-</td>
+<td align="center"><b>🧪 170</b><br/>Security Tests</td>
+<td align="center"><b>🛡️ 97.6%</b><br/>Attack Resistance</td>
+<td align="center"><b>🔧 124+</b><br/>AI Tools</td>
+<td align="center"><b>📦 769+</b><br/>Python Modules</td>
+<td align="center"><b>📊 15,847+</b><br/>Lines of Code</td>
 </tr>
 </table>
 
----
-
-## 💎 Code Highlights
-
 <details>
-<summary><b>🔄 Adaptive Framework Manager</b> — Graceful degradation for unreliable environments</summary>
+<summary><b>🔬 Key Features</b></summary>
 
-```python
-class AdaptiveFrameworkManager:
-    """Graceful degradation: FastAPI → Flask → Bottle"""
-    
-    def detect_available_framework(self):
-        frameworks = []
-        for name, module in [('fastapi', 'fastapi'), ('flask', 'flask'), ('bottle', 'bottle')]:
-            try:
-                mod = __import__(module)
-                frameworks.append((name, mod.__version__))
-            except ImportError:
-                pass
-        return frameworks[0] if frameworks else None
-    
-    def create_app(self):
-        framework = self.detect_available_framework()
-        if framework[0] == 'fastapi':
-            return self._create_fastapi_app()
-        elif framework[0] == 'flask':
-            return self._create_flask_app()
-        return self._create_bottle_app()
-```
-
-</details>
-
-<details>
-<summary><b>🌉 Python↔C# HTTP Bridge</b> — Cross-language REST integration</summary>
-
-```python
-from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
-
-app = FastAPI(title="AIOS Interface Bridge", version="1.0.0")
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["http://localhost:*"],  # C# WPF client
-    allow_methods=["GET", "POST"],
-    allow_headers=["*"],
-)
-
-@app.get("/health")
-async def health_check():
-    return {"status": "healthy", "bridge": "operational"}
-
-@app.post("/tools/{tool_name}/execute")
-async def execute_tool(tool_name: str, request: ToolRequest):
-    """Execute AI tool and return results to C# interface"""
-    result = await tool_registry.execute(tool_name, request.params)
-    return {"success": True, "result": result}
-```
-
-</details>
-
-<details>
-<summary><b>🛡️ Immune Memory System</b> — AI-powered adaptive security</summary>
-
-```python
-class ImmuneMemory:
-    """
-    Biological immune system pattern for security.
-    Learns attack signatures, provides adaptive immunity.
-    """
-    
-    def learn_from_attack(self, attack_pattern: str, severity: str) -> str:
-        """Create antibody for new attack signature"""
-        pattern_id = hashlib.sha256(attack_pattern.encode()).hexdigest()[:16]
-        
-        self.attack_signatures[pattern_id] = {
-            "pattern": attack_pattern,
-            "severity": severity,
-            "learned_at": datetime.now().isoformat(),
-            "recognition_count": 0
-        }
-        self._persist_antibodies()
-        return pattern_id
-    
-    def recognize_pattern(self, input_data: str) -> Optional[Dict]:
-        """Check input against known attack patterns (fuzzy matching)"""
-        for sig in self.attack_signatures.values():
-            if self._levenshtein_distance(input_data, sig["pattern"]) < 0.3:
-                sig["recognition_count"] += 1
-                return sig
-        return None
-```
+- **Adaptive Framework** — Self-optimizing task routing with context awareness
+- **Neural Intelligence** — Pattern matching for predictive tool selection
+- **Immune System** — Self-healing defenses with evolutionary learning
+- **HTTP Bridge** — RESTful API gateway for seamless integrations
 
 </details>
 
 ---
 
-## 🐳 Infrastructure
+## 🌐 Connect
 
-<table>
-<tr>
-<td width="33%">
+<p align="center">
+  <i>Building intelligent systems that adapt, evolve, and secure.</i>
+</p>
 
-### Observability Stack
-- **Prometheus** — Metrics collection
-- **Grafana** — Dashboards & alerts
-- **Loki + Promtail** — Log aggregation
-
-</td>
-<td width="33%">
-
-### Security Stack
-- **HashiCorp Vault** — Secrets management
-- **Shamir unsealing** — Distributed keys
-- **4-layer defense** — Input → Workspace → Shell → Immune
-
-</td>
-<td width="33%">
-
-### Deployment
-- **Traefik** — Reverse proxy + TLS
-- **Docker Compose** — Multi-service stacks
-- **GitHub Actions** — CI/CD pipelines
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <a href="https://tecnocrat.dev">🌐 tecnocrat.dev</a> • 
+  <a href="mailto:jesussard@gmail.com">📧 jesussard@gmail.com</a> • 
+  <a href="https://www.linkedin.com/in/tecnocrat/">💼 LinkedIn</a>
+</p>
 
 ---
 
-## 📈 GitHub Activity
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Tecnocrat&show_icons=true&theme=radical&hide_border=true&count_private=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=a0aec0)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Tecnocrat&layout=compact&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&text_color=a0aec0&langs_count=8)
-
-</div>
-
----
-
-<div align="center">
-
-### 💬 Let's Connect
-
-**Open to opportunities in AI Engineering, Platform Architecture, and DevOps.**
-
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-tecnocrat.github.io-667eea?style=flat-square)](https://tecnocrat.github.io/Portfolio/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-jesussard-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/jesussard/)
-[![Email](https://img.shields.io/badge/Email-jesussard@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:jesussard@gmail.com)
-
-</div>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,50:764ba2,100:00f5d4&height=120&section=footer">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,50:764ba2,100:00f5d4&height=120&section=footer">
-</picture>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,15,20&height=100&section=footer" width="100%"/>
+</p>
