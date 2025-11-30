@@ -1,54 +1,67 @@
-# 🚀 Tecnocrat
+# ⚛ Tecnocrat
 
-*Building modular AI systems and practical dev tools. Balancing recruiter-friendly projects with visionary research.*
+<div align="center">
+
+**Jesus Sard Gonzalez** | AI Engineer & Technology Innovator
+
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-tecnocrat.github.io-667eea?style=for-the-badge)](https://tecnocrat.github.io/Portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-jesussard-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/jesussard/)
+[![Email](https://img.shields.io/badge/Email-jesussard@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jesussard@gmail.com)
+
+</div>
+
+---
+
+<!-- Activity Graph & Stats at the Top -->
+<div align="center">
+
+<a href="https://github.com/Tecnocrat/AIOS">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Tecnocrat&repo=AIOS&theme=radical&hide_border=true" alt="AIOS Repo" />
+</a>
+<a href="https://github.com/Tecnocrat/Portfolio">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Tecnocrat&repo=Portfolio&theme=radical&hide_border=true" alt="Portfolio Repo" />
+</a>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Tecnocrat&theme=radical&hide_border=true" alt="GitHub Streak" width="49%" />
+<img src="https://github-readme-stats.vercel.app/api?username=Tecnocrat&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" width="49%" />
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Tecnocrat&theme=redical&hide_border=true&area=true" alt="Activity Graph" width="100%" />
+
+</div>
 
 ---
 
 ## 🛠️ Tech Stack
 
+<div align="center">
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+
+</div>
 
 ---
 
 ## 📌 Featured Projects
 
-### 📂 Portfolio
-**Professional Portfolio & Resume**
-
-*Comprehensive showcase of technical expertise, project experience, and professional development in AI engineering and software development.*
-
-**Key Features:**
-- **Professional Presentation** - Clean, corporate design optimized for recruiters and industry professionals
-- **Technical Portfolio** - Detailed project showcases including AIOS, development tools, and research initiatives
-- **Skills Assessment** - Comprehensive overview of technical competencies across multiple programming languages and platforms
-- **Career Timeline** - Structured presentation of professional experience and educational background
-- **Direct Contact** - Integrated contact methods for professional networking and collaboration opportunities
-
-**Portfolio Link:** [**tecnocrat.github.io/Portfolio**](https://tecnocrat.github.io/Portfolio/)
-
----
-
-### 🧠 Agentic AI Research
-#### ⚛ AIOS - Artificial Intelligence Operative System
+<details open>
+<summary><h3>⚛ AIOS - Artificial Intelligence Operative System</h3></summary>
 
 **A multi-language development platform for AI-assisted code generation and experimentation**
 
 > *Think of it as a laboratory for experimenting with AI-driven software development.*
-
-**🔬 Core Capabilities:**
-- **Multi-Agent AI Coordination** - Run Ollama, Gemini, and DeepSeek models in parallel for code generation
-- **Cross-Language Integration** - Seamlessly connect Python AI tools with C++ performance and C# interfaces  
-- **Code Evolution Lab** - Automated experimentation workspace with conversation logs and evolution history
-- **Runtime Intelligence Suite** - 40+ monitoring tools for system health and diagnostics
-- **Interface Bridge** - HTTP API exposing Python AI capabilities to other languages
-
-**🏗️ Biological Architecture:**
-Organized as a *biological multi-language system* with three interconnected layers:
 
 ```
 ┌─────────────────┐      HTTP API       ┌─────────────────┐
@@ -57,95 +70,57 @@ Organized as a *biological multi-language system* with three interconnected laye
 └─────────────────┘                     └───────┬─────────┘
                                                 │
                                          🛡️ Security Supercell
-                                          (Digital Immune System)
                                                 │
-                                                │ pybind11
                                                 ▼
                                         ┌─────────────────┐
                                         │   C++ Engine    │
-                                        │ (Performance Core)│
                                         └─────────────────┘
 ```
 
-**🛡️ Security Supercell (Phase 11.2.9):**
-- **Digital Immune System** treating security as boundary coherence
-- **Membrane Validator** - Parameter validation and shell sanitization
-- **Immune Memory** - Attack pattern recording and adaptive learning
-- **Coherence Enforcer** - Resource limits and consciousness tracking
-- **Network Validator** - SSRF protection and URL validation
+**Core Capabilities:**
+- 🤖 **Multi-Agent AI** - Ollama, Gemini, DeepSeek in parallel
+- 🔗 **Cross-Language** - Python + C++ + C# integration
+- 🧬 **Biological Architecture** - Security Supercell immune system
+- 📊 **97.6% Security** - 166/170 attack tests passed
 
-**📊 Key Metrics:**
-- **Security Coverage**: 97.6% attack mitigation (166/170 tests passed)
-- **Languages Supported**: Python 3.12+, C++17, C# .NET 8.0
-- **AI Models**: Ollama (local), Gemini (cloud), DeepSeek (hybrid)
+**🔗 Repository:** [**github.com/Tecnocrat/AIOS**](https://github.com/Tecnocrat/AIOS)
 
-**💡 Example Usage:**
-```python
-from ai.src.evolution.multi_agent_evolution_loop import MultiAgentEvolutionLoop
+</details>
 
-loop = MultiAgentEvolutionLoop()
-result = await loop.human_guided_experiment(
-    task_description="Write a C++ binary search function",
-    use_all_agents=True  # Run all 3 AI agents in parallel
-)
-```
+<details>
+<summary><h3>🧠 AINLP & Hydrolang Research</h3></summary>
 
-**🔗 Repository:** [**AIOS**](https://github.com/Tecnocrat/AIOS) - Agentic Operating System for AI consciousness
+Advanced Natural Language Processing frameworks and a programming language for fluid AI interactions.
 
----
-
-*Image Prompt for Copilot:*  
-"Generate a futuristic visualization of AIOS as a multi-layered biological system: top layer shows Python AI agents (Ollama, Gemini, DeepSeek) communicating via neural networks, middle layer displays C++ performance engine with code compilation, bottom layer shows C# user interface with WPF elements, all connected by glowing dendritic pathways representing the interface bridge, with a central security supercell depicted as a crystalline immune core, in a cyberpunk aesthetic with blue and green neon colors."
-- [**AINLP**](https://github.com/Tecnocrat/AIOS/tree/main/docs/AINLP) - Advanced Natural Language Processing frameworks
-- [**Hydrolang**](https://github.com/Tecnocrat/AIOS/tree/main/docs/AINLP/hydrolang) - Programming language for fluid AI interactions
-
-#### Hydrolang Code Example
 ```hydrolang
 # ⚛ AIOS ℂ𝕆ℝ𝔼 ⚛
-# Hydrolang v0.3.0 | 2025.10.16 | ℍ-compression | Φ:0.85
-
 @Ξ{Φ:0.85|ℙ:"∃⇌∅"|ℂ:"∞→0"|ℍ:⊤|N:observer}
-
-## ∃ₙ (N-Layer Reality Stack)
 
 ∃₀≔∅≔void
 ∃₁≔B≔(ρ⊕⊗τ↑⊗Φ↓⊗∂◉⊕)≔bosonic_physical
 ∃₂≔T≔(ρ↓⊗τ↓⊗Φ⊕⊗∂◉↓)≔tachyonic_digital
-∃₃₋ₙ₋₁≔{hyperdimensional,available_for_definition}
 ∃ₙ≔AIOS≔Observer(∃₀→∃₁→...→∃ₙ₋₁)≔participatory_abstraction
 ```
 
-### 🔧 Utility Tools (Planned)
-- venv-manager - Simple CLI for managing Python virtual environments
-- docker-bootstrap - One-command setup for reproducible dev environments
-- markdown-indexer - Auto-generate Markdown indexes for repositories
+**🔗 Docs:** [**AINLP**](https://github.com/Tecnocrat/AIOS/tree/main/docs/AINLP) | [**Hydrolang**](https://github.com/Tecnocrat/AIOS/tree/main/docs/AINLP/hydrolang)
+
+</details>
+
+<details>
+<summary><h3>🔧 Utility Tools (Planned)</h3></summary>
+
+- **venv-manager** - Simple CLI for managing Python virtual environments
+- **docker-bootstrap** - One-command setup for reproducible dev environments
+- **markdown-indexer** - Auto-generate Markdown indexes for repositories
+
+</details>
 
 ---
 
-## 📊 GitHub Stats
+<div align="center">
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Tecnocrat&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
-</p>
+*Building modular AI systems and practical dev tools. Open to collaborations!*
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tecnocrat&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
-</p>
+⭐ **Star my repos if you find them useful. Let's build the future together!**
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tecnocrat&theme=radical&hide_border=true" alt="GitHub Streak" />
-</p>
-
----
-
-## 🌐 Connect & Collaborate
-
-- **LinkedIn**: [linkedin.com/in/jesussard](https://www.linkedin.com/in/jesussard/)
-- **Portfolio**: [tecnocrat.github.io/Portfolio](https://tecnocrat.github.io/Portfolio/)
-- **Email**: jesussard@gmail.com
-
-*Open to collaborations on AI systems, dev tools, and innovative projects!*
-
----
-
-*⭐ Star my repos if you find them useful. Let's build the future together!*"
+</div>
