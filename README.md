@@ -67,6 +67,7 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Tecnocrat&theme=radical" alt="GitHub Stats" height="180"/>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Tecnocrat&theme=radical" alt="Top Languages" height="180"/>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Tecnocrat&theme=radical" alt="Most Commit Language" height="180"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Tecnocrat&theme=radical&utcOffset=1" alt="Productive Time" height="180"/>
 </p>
 
 <p align="center">
