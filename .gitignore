@@ -1,6 +1,8 @@
 
 
+# Large files
 media/Library/cpp-standard-library-msvc-170.pdf
 
-# Nested repos - keep separate
+# Nested repos - keep separate (each has own GitHub repo)
 Portfolio/
+aios-api/
