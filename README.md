@@ -74,63 +74,21 @@
 
 ## 🧠 AIOS — Adaptive Intelligence Operating System
 
-```mermaid
-flowchart TB
-    subgraph CORE["🧠 AIOS CORE"]
-        direction TB
-        AF[/"🔄 Adaptive Framework"\]
-        NI["🧬 Neural Intelligence"]
-        IS["🛡️ Immune System"]
-        MM["💾 Memory Matrix"]
-    end
-    
-    subgraph SERVICES["⚡ Service Layer"]
-        direction LR
-        HTTP["🌐 HTTP Bridge"]
-        WS["📡 WebSocket"]
-        MCP["🔌 MCP Server"]
-    end
-    
-    subgraph TOOLS["🔧 AI Tools (124+)"]
-        direction LR
-        T1["Code Analysis"]
-        T2["Security Scan"]
-        T3["Auto Healing"]
-    end
-    
-    subgraph SECURITY["🔒 Security Layer"]
-        direction LR
-        AUTH["🔐 Auth"]
-        CRYPT["🔏 Encryption"]
-        AUDIT["📋 Audit"]
-    end
-    
-    INPUT([" 📥 Input "]) --> SERVICES
-    SERVICES --> CORE
-    CORE --> TOOLS
-    CORE --> SECURITY
-    AF <--> NI
-    NI <--> IS
-    IS <--> MM
-    TOOLS --> OUTPUT([" 📤 Output "])
-    
-    style CORE fill:#667eea,stroke:#764ba2,color:#fff
-    style SERVICES fill:#00f5d4,stroke:#00b4d8,color:#000
-    style TOOLS fill:#f72585,stroke:#b5179e,color:#fff
-    style SECURITY fill:#4361ee,stroke:#3a0ca3,color:#fff
-```
+<p align="center">
+  <a href="https://github.com/Tecnocrat/AIOS">
+    <img src="https://tecnocrat-api.vercel.app/api/architecture" alt="AIOS Architecture" width="100%"/>
+  </a>
+</p>
 
 > **Enterprise AI infrastructure** with military-grade security and adaptive cognition.
 
-<table align="center">
-<tr>
-<td align="center"><b>🧪 170</b><br/>Security Tests</td>
-<td align="center"><b>🛡️ 97.6%</b><br/>Attack Resistance</td>
-<td align="center"><b>🔧 124+</b><br/>AI Tools</td>
-<td align="center"><b>📦 769+</b><br/>Python Modules</td>
-<td align="center"><b>📊 15,847+</b><br/>Lines of Code</td>
-</tr>
-</table>
+<p align="center">
+  <img src="https://tecnocrat-api.vercel.app/api/badge/tests" alt="Tests"/>
+  <img src="https://tecnocrat-api.vercel.app/api/badge/security" alt="Security"/>
+  <img src="https://tecnocrat-api.vercel.app/api/badge/tools" alt="Tools"/>
+  <img src="https://tecnocrat-api.vercel.app/api/badge/modules" alt="Modules"/>
+  <img src="https://tecnocrat-api.vercel.app/api/badge/loc" alt="LOC"/>
+</p>
 
 <details>
 <summary><b>🔬 Key Features</b></summary>
