@@ -12,8 +12,9 @@
 Phase 1: Infrastructure        ████████████████████ 100%
 Phase 2: Content Pipeline      ████░░░░░░░░░░░░░░░░  20%
 Phase 3: Automation            ████████░░░░░░░░░░░░  40%
-Phase 4: Reactive Intelligence ████████████████░░░░  80%  ← ACTIVE
-Phase 5: Ecosystem Integration ████████████████████ 100% ✓ NEW
+Phase 4: Reactive Intelligence ████████████████░░░░  80%
+Phase 5: Ecosystem Integration ████████████████████ 100% ✓
+Phase 6: Ecosystem Evolution   ░░░░░░░░░░░░░░░░░░░░   0%  ← NEXT
 ```
 
 ---
@@ -221,6 +222,171 @@ Create reusable behaviors:
 
 ---
 
+## 🚀 Phase 6: Ecosystem Evolution (PLANNED)
+
+> *"What could evolve — from manual to autonomous"*
+
+### Current State Analysis
+
+The `aios-api` project lives inside Tecnocrat repo as a nested repository:
+```
+c:\dev\Tecnocrat\           ← Profile repo (git)
+    └── aios-api\           ← Nested API repo (separate git, gitignored)
+        └── .git\           ← Independent history, pushes to Tecnocrat/aios-api
+```
+
+**This works but isn't optimal.** The API serves content but doesn't consume it automatically.
+
+---
+
+### Step 16: Automated Metric Pipeline
+> AIOS-win → GitHub Action → aios-api → All Surfaces
+
+#### 16.1 Metrics Extraction
+- [ ] GitHub Action in AIOS-win triggers on push
+- [ ] Script extracts: LOC count, test count, module count
+- [ ] Generates `metrics.json` artifact
+- [ ] Posts to aios-api webhook or updates config
+
+#### 16.2 Config Auto-Update
+- [ ] aios-api receives webhook from AIOS-win
+- [ ] Updates `lib/config.ts` programmatically
+- [ ] Commits and pushes → Vercel auto-deploys
+- [ ] All surfaces (Profile, Portfolio) update automatically
+
+#### 16.3 Freshness Indicators
+- [ ] Add `lastUpdated` timestamp to API response
+- [ ] Portfolio shows "Updated X hours ago"
+- [ ] Stale data warning if > 7 days
+
+---
+
+### Step 17: Portfolio ↔ API Live Integration
+> Portfolio fetches real-time data from tecnocrat-api
+
+#### 17.1 Dynamic Card Content
+- [ ] Cards fetch from `/api` on page load
+- [ ] Show live metrics instead of hardcoded
+- [ ] Graceful fallback if API unavailable
+
+#### 17.2 Evolution Stage Display
+- [ ] Fetch current roadmap stage from API
+- [ ] Progress bar shows real evolution status
+- [ ] Stage transitions animate on update
+
+#### 17.3 Surface Sync Enhancement
+- [ ] `surface.js` pings API for connection status
+- [ ] Shows live/cached/offline indicator
+- [ ] Stores last-known-good state in localStorage
+
+---
+
+### Step 18: Elevated Repository Architecture
+> Proposal: Monorepo with workspaces or dedicated services folder
+
+#### Option A: Monorepo with npm/pnpm Workspaces
+```
+c:\dev\tecnocrat-ecosystem\
+    ├── packages\
+    │   ├── api\           ← @tecnocrat/api (Vercel Edge)
+    │   ├── portfolio\     ← @tecnocrat/portfolio (GitHub Pages)
+    │   ├── profile\       ← @tecnocrat/profile (README generation)
+    │   └── shared\        ← @tecnocrat/shared (config, types, utils)
+    ├── package.json       ← Workspace root
+    ├── turbo.json         ← Turborepo for builds
+    └── .github\workflows\ ← Unified CI/CD
+```
+
+**Pros:** Single source of truth, shared types, atomic deploys  
+**Cons:** More complex, overkill for current scale
+
+#### Option B: Keep Separate, Add Orchestration Layer
+```
+c:\dev\
+    ├── Tecnocrat\         ← Profile (unchanged)
+    ├── Portfolio\         ← Website (unchanged)
+    ├── aios-api\          ← Move to sibling level
+    └── tecnocrat-sync\    ← NEW: Orchestration scripts
+        ├── sync-metrics.ps1
+        ├── deploy-all.ps1
+        └── config.yaml    ← Defines all repo locations
+```
+
+**Pros:** Minimal disruption, explicit orchestration  
+**Cons:** Manual coordination, no shared types
+
+#### Option C: Git Submodules (Current Direction)
+```
+c:\dev\Tecnocrat\          ← Main repo
+    ├── .gitmodules        ← Defines submodule refs
+    ├── services\
+    │   └── aios-api\      ← Submodule → Tecnocrat/aios-api
+    └── sites\
+        └── portfolio\     ← Submodule → Tecnocrat/Portfolio
+```
+
+**Pros:** Git-native, repos stay independent, explicit versioning  
+**Cons:** Submodule complexity, manual updates
+
+#### 🎯 Recommended: Option B (Sibling Repos + Sync Layer)
+
+For current scale, this provides:
+1. **Independence** — Each repo deploys independently
+2. **Visibility** — Clear separation for recruiters browsing GitHub
+3. **Flexibility** — Can evolve to monorepo later if needed
+4. **Simplicity** — No submodule headaches
+
+---
+
+### Step 19: Cross-Repo Sync Automation
+> `tecnocrat-sync` orchestration layer
+
+#### 19.1 Sync Script
+- [ ] Create `c:\dev\tecnocrat-sync\` project
+- [ ] `sync-metrics.ps1`: Pull AIOS-win stats → Update aios-api config
+- [ ] `deploy-all.ps1`: Build and deploy all projects in order
+- [ ] `validate.ps1`: Check all repos are in sync
+
+#### 19.2 Configuration
+```yaml
+# config.yaml
+repos:
+  profile:
+    path: ../Tecnocrat
+    deploy: github-pages
+  portfolio:
+    path: ../Portfolio
+    deploy: github-pages
+  api:
+    path: ../aios-api
+    deploy: vercel
+  source:
+    path: ../AIOS-win
+    extract: [metrics, architecture]
+```
+
+#### 19.3 GitHub Actions Integration
+- [ ] AIOS-win push → Trigger sync workflow
+- [ ] Workflow calls aios-api update endpoint
+- [ ] Chain: Source → API → Surfaces refresh
+
+---
+
+### Step 20: Resume/CV Auto-Generation
+> Extend aios-api to generate PDF resume
+
+#### 20.1 Resume API Endpoint
+- [ ] `/api/resume` returns structured data
+- [ ] `/api/resume/pdf` generates downloadable PDF
+- [ ] Uses same config as other endpoints
+
+#### 20.2 Dynamic Content
+- [ ] Pulls project stats from AIOS-win
+- [ ] Includes recent commits/activity
+- [ ] Skills auto-update from actual code usage
+
+---
+
 ## 📋 Pending Tasks
 
 ### Phase 2: Content Pipeline
@@ -295,8 +461,10 @@ Create reusable behaviors:
 - **Persona**: [`intelligence/context/persona.md`](intelligence/context/persona.md)
 
 ### Related Repos
-- **AIOS**: [github.com/Tecnocrat/AIOS](https://github.com/Tecnocrat/AIOS)
-- **Portfolio**: [github.com/Tecnocrat/Portfolio](https://github.com/Tecnocrat/Portfolio)
+- **AIOS-win**: [github.com/Tecnocrat/AIOS-win](https://github.com/Tecnocrat/AIOS-win) — Source of truth
+- **aios-api**: [github.com/Tecnocrat/aios-api](https://github.com/Tecnocrat/aios-api) — Service layer
+- **Portfolio**: [github.com/Tecnocrat/Portfolio](https://github.com/Tecnocrat/Portfolio) — Presentation
+- **Server**: [github.com/Tecnocrat/server](https://github.com/Tecnocrat/server) — Infrastructure
 
 ---
 
@@ -304,21 +472,42 @@ Create reusable behaviors:
 
 | Metric | Current | Target |
 |--------|---------|--------|
-| AIOS % exposed | ~25% | 40% |
-| Touchpoints active | 3/4 | 4/4 |
-| Update frequency | Manual | Semi-auto |
-| Content freshness | Weekly | Real-time |
+| AIOS % exposed | ~35% | 50% |
+| Touchpoints active | 4/5 | 5/5 |
+| Update frequency | Manual | Automated |
+| Content freshness | Daily | Real-time |
 | Cross-platform coherence | High | Automated |
-| **Reactive elements** | **2** (cube, logo) | **10+** |
-| **Abstraction layers** | **1** (Hydrolang) | **5** |
+| Reactive elements | 5 (cube, logo, cards, stack, sync) | 10+ |
+| Abstraction layers | 5 (docker, api, infra, metrics, roadmap) | 5 ✓ |
+| **API endpoints** | **4** | **6+** |
+| **Automation level** | **Manual** | **Event-driven** |
 
 ---
 
 ## 🎯 Next Actions
 
-1. **Immediate**: Implement Step 7 (3D Code Stack)
-2. **This week**: Complete Steps 7.1-7.4
-3. **Next week**: Global Reactive System (Step 8)
+1. **Immediate**: Move aios-api to sibling level (`c:\dev\aios-api`)
+2. **This week**: Create `tecnocrat-sync` orchestration project
+3. **Next sprint**: Implement automated metric pipeline (Step 16)
+4. **Future**: Portfolio live API integration (Step 17)
+
+---
+
+## 🏗️ Architecture Decision Record
+
+### ADR-001: Sibling Repos over Nested Structure
+**Date:** 2025-12-01  
+**Status:** Accepted  
+**Context:** aios-api was created inside Tecnocrat repo, causing git tracking confusion  
+**Decision:** Keep repos as siblings, use orchestration layer for sync  
+**Consequences:** Clearer separation, requires explicit sync tooling  
+
+### ADR-002: Edge-First API Design
+**Date:** 2025-12-01  
+**Status:** Accepted  
+**Context:** Need fast global response for GitHub profile badges  
+**Decision:** Use Vercel Edge Runtime for all API routes  
+**Consequences:** ~50ms global latency, limited to Edge-compatible APIs  
 
 ---
 
