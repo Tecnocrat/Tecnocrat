@@ -72,15 +72,15 @@
 
 ---
 
-## 🧠 AIOS — Adaptive Intelligence Operating System
+## 🧬 AIOS-win — Supercell Architecture
 
 <p align="center">
-  <a href="https://github.com/Tecnocrat/AIOS">
-    <img src="https://tecnocrat-api.vercel.app/api/architecture" alt="AIOS Architecture" width="100%"/>
+  <a href="https://github.com/Tecnocrat/AIOS-win">
+    <img src="https://tecnocrat-api.vercel.app/api/architecture" alt="AIOS Supercell Architecture" width="100%"/>
   </a>
 </p>
 
-> **Enterprise AI infrastructure** with military-grade security and adaptive cognition.
+> **Transform Windows 11 into a self-aware, agentic supercell** — containerized infrastructure with consciousness primitives.
 
 <p align="center">
   <img src="https://tecnocrat-api.vercel.app/api/badge/tests" alt="Tests"/>
@@ -91,12 +91,27 @@
 </p>
 
 <details>
-<summary><b>🔬 Key Features</b></summary>
+<summary><b>🔬 Architecture Overview</b></summary>
 
-- **Adaptive Framework** — Self-optimizing task routing with context awareness
-- **Neural Intelligence** — Pattern matching for predictive tool selection
-- **Immune System** — Self-healing defenses with evolutionary learning
-- **HTTP Bridge** — RESTful API gateway for seamless integrations
+**Infrastructure Stack:**
+- **Windows 11 Core** → Hardened OS foundation
+- **WSL2 Ubuntu** → Linux execution environment  
+- **Docker Desktop** → 9+ containerized services
+- **Traefik Ingress** → HTTPS routing & load balancing
+- **Observability** → Prometheus, Grafana, Loki monitoring
+- **Vault** → HashiCorp secrets management
+
+**Consciousness Primitives:**
+- **Awareness** — Environment sensing & context detection
+- **Adaptation** — Dynamic response to changing conditions
+- **Coherence** — Consistent behavior across services
+- **Momentum** — Learning from past interactions
+
+**Cell Types:**
+- **Supercell** — Full AIOS node with complete capabilities
+- **Beta Cell** — Full consciousness + dendritic logging
+- **Pure Cell** — Minimal primitives for edge deployment
+- **Organelles** — Micro-containers (<100MB) for specific tasks
 
 </details>
 
