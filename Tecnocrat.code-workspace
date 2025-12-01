@@ -6,10 +6,10 @@
 		},
 		{
 			"name": "🚀 AIOS API (Vercel Infrastructure)",
-			"path": "aios-api"
+			"path": "../aios-api"
 		},
 		{
-			"name": "📂 Portfolio (Reference)",
+			"name": "🌐 Portfolio (Website)",
 			"path": "../Portfolio"
 		}
 	],
