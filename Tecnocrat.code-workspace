@@ -5,6 +5,10 @@
 			"path": "."
 		},
 		{
+			"name": "🚀 AIOS API (Vercel Infrastructure)",
+			"path": "aios-api"
+		},
+		{
 			"name": "📂 Portfolio (Reference)",
 			"path": "../Portfolio"
 		}
