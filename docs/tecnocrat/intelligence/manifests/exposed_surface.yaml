@@ -1,13 +1,15 @@
 # Tecnocrat Knowledge Surface Manifest
 # Defines what AIOS knowledge is exposed to the public web
-# Version: 1.0.0 | Date: 2025-11-30
+# Version: 2.0.0 | Date: 2025-12-04
+# Architecture: Supercell - Transform Windows 11 into a self-aware, agentic supercell
 
 metadata:
   name: "Tecnocrat Knowledge Surface"
-  version: "1.0.0"
-  description: "Controls what AIOS knowledge is publicly visible"
-  last_updated: "2025-11-30"
+  version: "2.0.0"
+  description: "Controls what AIOS Supercell knowledge is publicly visible"
+  last_updated: "2025-12-04"
   curator: "Tecnocrat"
+  api_endpoint: "https://tecnocrat-api.vercel.app/api"
 
 # Exposure Levels
 # L0: Public - Anyone can see (landing pages, basic concepts)
@@ -35,38 +37,41 @@ exposure_levels:
 # Knowledge Surface Definition
 knowledge_surface:
   
-  # HYDROLANG
-  hydrolang:
+  # SUPERCELL ARCHITECTURE (primary concept)
+  supercell:
     exposed:
-      - name: "core_concepts"
+      - name: "core_concept"
         level: L2_technical
-        description: "N-Layer Reality Stack, Observer Abstraction, Hydrogen Principle"
-        source: "docs/sources/AIOS/AIOS_CORE.hydro"
+        description: "Transform Windows 11 into a containerized AI-driven operating environment"
+        source: "docs/architecture/supercell.md"
         transform: "abstract_concepts"
         
-      - name: "symbolic_notation"
+      - name: "cell_types"
         level: L2_technical
-        description: "∃, ⇌, ⟲ and other Hydrolang symbols"
-        source: "docs/sources/AIOS/AIOS_CORE.hydro"
+        description: "Nucleus, Membrane, Ribosome, Mitochondria - specialized containers"
+        source: "docker-compose.yml"
         transform: "glossary"
         
       - name: "philosophy"
         level: L1_professional
-        description: "High-level consciousness research direction"
+        description: "Biological-inspired AI system design"
         transform: "summary"
         
     hidden:
       - name: "implementation_details"
         reason: "Proprietary"
-      - name: "experimental_notation"
-        reason: "Unstable"
+      - name: "internal_state"
+        reason: "Security"
 
-  # SECURITY SUPERCELL
+  # SECURITY MEMBRANE
   security:
     exposed:
       - name: "architecture_patterns"
         level: L2_technical
         description: "Digital immune system design, membrane validation"
+        metrics:
+          tests_passed: 170
+          security_score: "97.6%"
         transform: "abstract_patterns"
         
       - name: "concept_overview"
@@ -88,11 +93,14 @@ knowledge_surface:
       - name: "successful_experiments"
         level: L2_technical
         description: "Multi-agent code generation results"
+        metrics:
+          ai_tools: 124
+          agents: ["Ollama", "Gemini", "DeepSeek", "Claude", "GPT-4"]
         transform: "curated_demos"
         
       - name: "methodology"
         level: L1_professional
-        description: "AI-assisted development approach"
+        description: "AI-assisted development with evolution tracking"
         transform: "process_summary"
         
     hidden:
@@ -106,14 +114,25 @@ knowledge_surface:
   # RUNTIME INTELLIGENCE
   runtime:
     exposed:
-      - name: "tool_count"
+      - name: "ai_tools"
         level: L0_public
-        description: "43 diagnostic tools"
+        description: "124 integrated AI tools"
+        metrics:
+          count: 124
+          growth: "+81 since v1.0"
         transform: "badge_number"
+        
+      - name: "containers"
+        level: L1_professional
+        description: "9 specialized Docker containers"
+        metrics:
+          count: 9
+          services: ["Ollama", "ChromaDB", "Traefik", "Vault", "Prometheus", "Grafana", "PostgreSQL", "Redis", "Nginx"]
+        transform: "service_list"
         
       - name: "capabilities_overview"
         level: L1_professional
-        description: "Monitoring, diagnostics, optimization"
+        description: "Monitoring, diagnostics, self-healing"
         transform: "feature_list"
         
     hidden:
@@ -122,17 +141,42 @@ knowledge_surface:
       - name: "system_state"
         reason: "Security"
 
+  # INFRASTRUCTURE LAYER
+  infrastructure:
+    exposed:
+      - name: "docker_compose"
+        level: L2_technical
+        description: "Multi-service container orchestration"
+        metrics:
+          services: 9
+          networks: 1
+        transform: "diagram"
+        
+      - name: "observability"
+        level: L2_technical
+        description: "Prometheus + Grafana observability stack"
+        transform: "feature_summary"
+        
+    hidden:
+      - name: "secrets_config"
+        reason: "Security"
+      - name: "vault_paths"
+        reason: "Security"
+
   # MULTI-LANGUAGE STACK
   stack:
     exposed:
       - name: "languages"
         level: L0_public
-        description: "Python 3.12+, C++17, C# .NET 8.0"
+        description: "Python 3.12+, C++17, C# .NET 8.0, TypeScript 5.x"
         transform: "shields_badges"
         
       - name: "architecture"
         level: L2_technical
-        description: "Multi-language coordination"
+        description: "Multi-language Supercell coordination"
+        metrics:
+          lines_of_code: 15800
+          python_modules: 47
         transform: "diagram"
         
     hidden:
@@ -143,27 +187,36 @@ knowledge_surface:
 touchpoints:
   github_profile:
     content:
-      - hydrolang.core_concepts
+      - supercell.core_concept
+      - supercell.cell_types
       - security.concept_overview
       - evolution.methodology
-      - runtime.tool_count
+      - runtime.ai_tools
       - stack.languages
     format: "README.md"
+    api_endpoints:
+      - "/api/architecture"
+      - "/api/badge/:metric"
+      - "/api/stats"
     update_frequency: "weekly"
     
   portfolio_website:
     content:
-      - hydrolang.philosophy
-      - hydrolang.core_concepts
+      - supercell.philosophy
+      - supercell.core_concept
       - security.architecture_patterns
       - evolution.successful_experiments
+      - infrastructure.docker_compose
       - stack.architecture
     format: "HTML/CSS/JS"
+    api_endpoints:
+      - "/api/surface"
+      - "/api/genome"
     update_frequency: "monthly"
     
   linkedin:
     content:
-      - hydrolang.philosophy
+      - supercell.philosophy
       - security.concept_overview
       - evolution.methodology
       - stack.languages
@@ -176,6 +229,25 @@ touchpoints:
     format: "README.md, docs/"
     update_frequency: "continuous"
 
+# API Endpoints (served by aios-api on Vercel)
+api_surface:
+  base_url: "https://tecnocrat-api.vercel.app"
+  endpoints:
+    - path: "/api"
+      description: "Root endpoint with full AIOS overview"
+    - path: "/api/stats"
+      description: "Real-time metrics and computed statistics"
+    - path: "/api/badge/:metric"
+      description: "Dynamic SVG badges for any metric"
+    - path: "/api/architecture"
+      description: "Architecture diagram SVG"
+    - path: "/api/card"
+      description: "Stats card SVG for README embeds"
+    - path: "/api/surface"
+      description: "Knowledge surface JSON (this manifest as API)"
+    - path: "/api/genome"
+      description: "AIOS genome details for deep exploration"
+
 # Safety Rules
 safety:
   never_expose:
@@ -187,6 +259,8 @@ safety:
     - "personal_data"
     - "failed_experiments"
     - "raw_consciousness_state"
+    - "vault_tokens"
+    - "docker_secrets"
     
   always_review:
     - "security_related_content"
