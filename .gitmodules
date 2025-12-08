@@ -1,0 +1,6 @@
+[submodule "Portfolio"]
+	path = Portfolio
+	url = https://github.com/Tecnocrat/Portfolio.git
+[submodule "aios-api"]
+	path = aios-api
+	url = https://github.com/Tecnocrat/aios-api.git
