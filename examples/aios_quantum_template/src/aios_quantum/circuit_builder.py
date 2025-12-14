@@ -62,12 +62,15 @@ class QuantumCircuitBuilder:
 
         Raises:
             ValueError: If target qubit is out of range
+
+        Note:
+            The params parameter is reserved for future parameterized gate support.
         """
         if target < 0 or target >= self.qubits:
-            raise ValueError("Target qubit %d out of range [0, %d)" % (target, self.qubits))
+            raise ValueError(f"Target qubit {target} out of range [0, {self.qubits})")
 
-        # Store params if provided (used for parameterized gates)
-        _ = params  # Mark as intentionally unused in this simplified example
+        # params reserved for future parameterized gate implementation
+        del params  # Acknowledge unused parameter
 
         self.depth += 1
         logger.info("Gate added: %s on qubit %d", gate_type, target)

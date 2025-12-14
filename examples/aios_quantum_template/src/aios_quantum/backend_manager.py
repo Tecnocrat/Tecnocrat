@@ -140,13 +140,14 @@ class QuantumBackend:
         # W1203 FIX: Use % formatting in logging, not f-strings
         logger.info("Executing circuit on backend: %s with shots: %d", self.name, shots)
 
-        # Simulate execution
+        # Simulate execution with dynamic results based on shots
+        half_shots = shots // 2
         results = {
             "backend": self.name,
             "shots": shots,
             "optimization_level": optimization_level,
             "success": True,
-            "results": {"00": 512, "11": 512}  # Example results
+            "results": {"00": half_shots, "11": shots - half_shots}  # Even distribution
         }
 
         return results
