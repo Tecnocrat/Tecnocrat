@@ -1,8 +1,8 @@
 # 📚 Tecnocrat Documentation Index
 ## Navigation Hub for All Documentation
 
-> **Last Updated:** 2025-11-30  
-> **Version:** 1.0.0
+> **Last Updated:** 2026-02-14  
+> **Version:** 1.1.0
 
 ---
 
@@ -20,6 +20,15 @@ Tecnocrat/
 │   │   └── AIOS/                    ← AIOS project references
 │   │       ├── AIOS_CORE.hydro      ← Hydrolang core definition
 │   │       └── AIOS_README.md       ← AIOS full documentation
+│   │
+│   ├── career/                      ← Career intelligence & job-hunting workflow
+│   │   ├── README.md               ← Career hub
+│   │   ├── workflow.md             ← Daily/weekly/monthly routines
+│   │   ├── focus.md                ← Strategic targeting
+│   │   ├── next-steps.md           ← Action items
+│   │   ├── tips.md                 ← Best practices & privacy
+│   │   ├── templates/              ← Resume, cover letter, tracker, interview prep
+│   │   └── scripts/                ← PowerShell automation
 │   │
 │   └── tecnocrat/                   ← Tecnocrat intelligence system
 │       ├── ARCHITECTURE.md          ← System design (formerly blueprint)
@@ -71,6 +80,15 @@ Tecnocrat/
 | **Content Pipeline** | Transformation rules | [`content_pipeline.yaml`](tecnocrat/intelligence/manifests/content_pipeline.yaml) |
 | **Touchpoints** | Platform configurations | [`touchpoints.yaml`](tecnocrat/intelligence/manifests/touchpoints.yaml) |
 
+### Career Intelligence
+
+| Document | Purpose | Path |
+|----------|---------|------|
+| **Career Hub** | Career tooling overview | [`README.md`](career/README.md) |
+| **Workflow** | Daily/weekly/monthly routines | [`workflow.md`](career/workflow.md) |
+| **Focus** | Strategic job targeting | [`focus.md`](career/focus.md) |
+| **Templates** | Resume, cover letter, tracker | [`templates/`](career/templates/) |
+
 ### Source References
 
 | Document | Purpose | Path |
@@ -81,6 +99,9 @@ Tecnocrat/
 ---
 
 ## 📁 Folder Purposes
+
+### `docs/career/`
+**Career intelligence** — job-hunting workflow, application tracking templates, resume/cover letter scaffolds, and interview preparation. Absorbed from `Tecnocrat/Job-Hunting-Workflow` (Feb 2026). Connects to ROADMAP Step 20 (Resume/CV Auto-Generation).
 
 ### `docs/sources/`
 External project documentation that Tecnocrat **references but doesn't own**. These are copies/mirrors of docs from other repositories (like AIOS) that inform Tecnocrat's knowledge surface.
