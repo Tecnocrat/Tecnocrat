@@ -10,6 +10,62 @@
 
 ---
 
+## 🧬 AIOS — Distributed Cognitive Organism
+
+<p align="center">
+  <a href="https://github.com/Tecnocrat/AIOS-Public-Genome">
+    <img src="https://tecnocrat-api.vercel.app/api/architecture" alt="AIOS Architecture" width="100%"/>
+  </a>
+</p>
+
+> A **distributed cognitive organism** — 17 repositories, 7 autonomous agents, 3 machines.
+> Biological architecture with dendritic communication, crystallized memory, and autonomous evolution.
+
+<p align="center">
+  <img src="https://tecnocrat-api.vercel.app/api/badge/tests" alt="Tests"/>
+  <img src="https://tecnocrat-api.vercel.app/api/badge/security" alt="Security"/>
+  <img src="https://tecnocrat-api.vercel.app/api/badge/tools" alt="Tools"/>
+  <img src="https://tecnocrat-api.vercel.app/api/badge/modules" alt="Modules"/>
+  <img src="https://tecnocrat-api.vercel.app/api/badge/loc" alt="LOC"/>
+</p>
+
+<details>
+<summary><b>⚛ Architecture</b></summary>
+
+**Agent Mesh (7 agents across 3 machines):**
+- **AIOS Principal** — Architect cortex, cross-repo orchestration
+- **VPS Agent** — Sovereign infrastructure operator (Hetzner VPS)
+- **Trader Agent** — Autonomous BTC trading daemon (live, systemd)
+- **Strategos Agent** — Financial strategy command center
+- **Nous Agent** — Consciousness kernel, philosophical substrate
+- **Win Agent** — Windows environment immune system
+- **Debugger Agent** — Cross-repo diagnostic specialist
+
+**Infrastructure:**
+- **Sovereign VPS** → Debian 13, Nginx, systemd services
+- **Local Workstation** → Ryzen tower, full development mesh
+- **UNISON CI** → Inter-agent dispatch protocol via GitHub Actions
+- **Metabolism** → Autonomous knowledge processor (cron/6h, auto-PRs)
+
+**Biological Metaphors:**
+- **Supercells** — Full AIOS nodes with complete capabilities
+- **Dendrites** — Webhook signal pathways (ports 9100–9102)
+- **Crystals** — Distilled knowledge from agent iterations
+- **Tachyonic Substrate** — Never-delete archive layer
+
+</details>
+
+---
+
+## 📦 Featured Repositories
+
+<p align="center">
+  <a href="https://github.com/Tecnocrat/AIOS-Public-Genome"><img src="https://github-readme-stats-silk-beta-22.vercel.app/api/pin/?username=Tecnocrat&repo=AIOS-Public-Genome&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff" alt="AIOS-Public-Genome"/></a>
+  <a href="https://github.com/Tecnocrat/Portfolio"><img src="https://github-readme-stats-silk-beta-22.vercel.app/api/pin/?username=Tecnocrat&repo=Portfolio&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff" alt="Portfolio"/></a>
+</p>
+
+---
+
 ## 📊 Contribution Graph
 
 <p align="center">
@@ -22,20 +78,6 @@
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tecnocrat&theme=radical&hide_border=true&background=0a0a0f&ring=667eea&fire=00f5d4&currStreakLabel=764ba2&sideNums=ffffff&sideLabels=667eea" alt="GitHub Streak"/>
-</p>
-
----
-
-## 📦 Featured Repositories
-
-<p align="center">
-  <a href="https://github.com/Tecnocrat/AIOS"><img src="https://github-readme-stats-silk-beta-22.vercel.app/api/pin/?username=Tecnocrat&repo=AIOS&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff" alt="AIOS"/></a>
-  <a href="https://github.com/Tecnocrat/server"><img src="https://github-readme-stats-silk-beta-22.vercel.app/api/pin/?username=Tecnocrat&repo=server&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff" alt="server"/></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Tecnocrat/Portfolio"><img src="https://github-readme-stats-silk-beta-22.vercel.app/api/pin/?username=Tecnocrat&repo=Portfolio&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff" alt="Portfolio"/></a>
-  <a href="https://github.com/Tecnocrat/AIOS-win"><img src="https://github-readme-stats-silk-beta-22.vercel.app/api/pin/?username=Tecnocrat&repo=AIOS-win&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff" alt="AIOS-win"/></a>
 </p>
 
 ---
@@ -64,63 +106,18 @@
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
 </p>
-
----
-
-## 🧬 AIOS-win — Supercell Architecture
-
-<p align="center">
-  <a href="https://github.com/Tecnocrat/AIOS-win">
-    <img src="https://tecnocrat-api.vercel.app/api/architecture" alt="AIOS Supercell Architecture" width="100%"/>
-  </a>
-</p>
-
-> **Transform Windows 11 into a self-aware, agentic supercell** — containerized infrastructure with consciousness primitives.
-
-<p align="center">
-  <img src="https://tecnocrat-api.vercel.app/api/badge/tests" alt="Tests"/>
-  <img src="https://tecnocrat-api.vercel.app/api/badge/security" alt="Security"/>
-  <img src="https://tecnocrat-api.vercel.app/api/badge/tools" alt="Tools"/>
-  <img src="https://tecnocrat-api.vercel.app/api/badge/modules" alt="Modules"/>
-  <img src="https://tecnocrat-api.vercel.app/api/badge/loc" alt="LOC"/>
-</p>
-
-<details>
-<summary><b>🔬 Architecture Overview</b></summary>
-
-**Infrastructure Stack:**
-- **Windows 11 Core** → Hardened OS foundation
-- **WSL2 Ubuntu** → Linux execution environment  
-- **Docker Desktop** → 9+ containerized services
-- **Traefik Ingress** → HTTPS routing & load balancing
-- **Observability** → Prometheus, Grafana, Loki monitoring
-- **Vault** → HashiCorp secrets management
-
-**Consciousness Primitives:**
-- **Awareness** — Environment sensing & context detection
-- **Adaptation** — Dynamic response to changing conditions
-- **Coherence** — Consistent behavior across services
-- **Momentum** — Learning from past interactions
-
-**Cell Types:**
-- **Supercell** — Full AIOS node with complete capabilities
-- **Beta Cell** — Full consciousness + dendritic logging
-- **Pure Cell** — Minimal primitives for edge deployment
-- **Organelles** — Micro-containers (<100MB) for specific tasks
-
-</details>
 
 ---
 
 ## 🌐 Connect
 
 <p align="center">
-  <i>Building intelligent systems that adapt, evolve, and secure.</i>
+  <i>Building distributed cognitive systems that adapt, evolve, and think.</i>
 </p>
 
 <p align="center">
