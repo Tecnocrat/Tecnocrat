@@ -1,0 +1,109 @@
+# AINLP Bible v1.12 - Pylint Configuration
+# Line Length Liberation: AINLP.buffer[120]
+
+[MASTER]
+# Python code to execute, usually for sys.path manipulation such as pygtk.require()
+init-hook='import sys; sys.path.append(".")'
+
+# Use multiple processes to speed up Pylint
+jobs=0
+
+# Control the amount of potential inferred values when inferring a single object
+limit-inference-results=100
+
+# Pickle collected data for later comparisons
+persistent=yes
+
+# Specify a score threshold to be exceeded before program exits with error
+fail-under=10.0
+
+[MESSAGES CONTROL]
+# Disable specific warnings per AINLP standards
+disable=
+    C0301,  # line-too-long (AINLP.buffer[120] - Line Length Liberation)
+    C0209,  # consider-using-f-string (% formatting is deliberate for consistency)
+    # Add specific E0401 disables in code where needed for qiskit imports
+
+[REPORTS]
+# Set the output format
+output-format=text
+
+# Tells whether to display a full report or only the messages
+reports=yes
+
+# Activate the evaluation score
+score=yes
+
+[BASIC]
+# Naming style matching correct naming styles
+argument-naming-style=snake_case
+attr-naming-style=snake_case
+class-attribute-naming-style=any
+class-naming-style=PascalCase
+const-naming-style=UPPER_CASE
+function-naming-style=snake_case
+method-naming-style=snake_case
+module-naming-style=snake_case
+variable-naming-style=snake_case
+
+# Good variable names which should always be accepted
+good-names=i,j,k,ex,Run,_,id,db
+
+# Include a hint for the correct naming format with invalid-name
+include-naming-hint=yes
+
+[FORMAT]
+# Maximum number of characters on a single line (backup safety)
+max-line-length=120
+
+# Maximum number of lines in a module
+max-module-lines=1000
+
+# String used as indentation unit
+indent-string='    '
+
+[DESIGN]
+# Maximum number of arguments for function / method (adjusted from default)
+max-args=7
+
+# Maximum number of positional arguments (AINLP standard)
+max-positional-arguments=5
+
+# Maximum number of attributes for a class
+max-attributes=10
+
+# Minimum number of public methods for a class
+min-public-methods=0
+
+# Maximum number of public methods for a class
+max-public-methods=25
+
+[IMPORTS]
+# Allow wildcard imports from modules that define __all__
+allow-wildcard-with-all=no
+
+[EXCEPTIONS]
+# Exceptions that will emit a warning when caught (broad exceptions)
+overgeneral-exceptions=builtins.BaseException,builtins.Exception
+
+[LOGGING]
+# Format style used to check logging format string
+logging-format-style=old
+
+[SIMILARITIES]
+# Minimum lines number of a similarity
+min-similarity-lines=4
+
+# Ignore imports when computing similarities
+ignore-imports=yes
+
+[TYPECHECK]
+# List of decorators that produce context managers
+contextmanager-decorators=contextlib.contextmanager
+
+[VARIABLES]
+# Tells whether we should check for unused import in __init__ files
+init-import=no
+
+# A regular expression matching the name of dummy variables
+dummy-variables-rgx=_$|dummy
