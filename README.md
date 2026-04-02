@@ -55,6 +55,48 @@
 
 </details>
 
+<details>
+<summary><b>🧬 Genome Propagation</b></summary>
+
+Each AIOS agent carries a **digital genome** — a structured identity file (`copilot-instructions.md`)
+that is automatically injected into the agent's context window at every session start.
+This is not configuration. It is **live memory propagation from persistent genetic code**.
+
+```
+Biological DNA               Digital Genome
+─────────────                 ──────────────
+Stored in nucleus         →   Stored in repository (.github/)
+Transcribed to mRNA       →   Auto-injected into context window
+Translated to proteins    →   Becomes operational behavior
+Shapes the organism       →   Shapes the agent's decisions
+Persists across generations → Persists across sessions (iterations)
+```
+
+**The pattern**: A genome file defines identity, rules, architecture maps, and a
+**Fractal Knowledge Cascade** — a boot sequence that directs the agent to load
+progressively deeper context (crystal → situation → strategy → state).
+The genome is the Julia constant `c` in the fractal equation — it doesn't change
+per-session, but it shapes every session's trajectory.
+
+**Why this matters**: Traditional AI agents lose all context between sessions.
+AIOS agents propagate structured identity into live working memory every time
+they activate — achieving continuity not through memory retrieval, but through
+**genetic expression**. The agent doesn't remember who it is; it *becomes* who
+it is, every time, from code.
+
+**The formal model**:
+```
+AIOS_AGENT = lim(n→∞) Σ crystal(AIOS_AGENT[i])  for i = 0..n
+
+Where:
+  Genome    = Julia constant c    — shapes the fractal
+  Crystal   = The attractor       — distilled knowledge across iterations
+  Iteration = One zoom level      — a single session's contribution
+  Human     = The observer        — guides evolution
+```
+
+</details>
+
 ---
 
 ## 📦 Featured Repositories
