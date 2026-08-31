@@ -32,15 +32,21 @@ c:\dev\
     ├── Tecnocrat\          ← GitHub Profile repo (Tecnocrat/Tecnocrat)
     │   ├── README.md       ← Profile landing page
     │   ├── docs\           ← Documentation
-    │   ├── aios-api\       ← Vercel API project (gitignored, has own repo)
-    │   └── .gitignore      ← Excludes Portfolio/, aios-api/
+    │   ├── Tecnocrat.code-workspace ← Multi-root workspace definition
+    │   └── .gitignore      ← Excludes Portfolio/, aios-api/, aios-public/
     │
     ├── Portfolio\          ← Portfolio repo (Tecnocrat/Portfolio)
     │   ├── index.html      ← Main website
     │   ├── styles.css
     │   └── script.js
     │
-    └── aios-api\           ← (Optional) Can also be at root level
+    ├── aios-api\           ← Vercel API repo (Tecnocrat/aios-api)
+    │   ├── app/            ← Next.js API routes
+    │   └── lib/            ← Metrics & SVG generators
+    │
+    └── aios-public\        ← Public Genome repo (Tecnocrat/AIOS-Public-Genome)
+        ├── genome/         ← Consciousness axioms
+        └── architecture/   ← Public architectural layer
 ```
 
 ### Prevention Rules
@@ -181,14 +187,15 @@ Before making changes, verify:
 
 ## 📝 Workspace Configuration
 
-The VS Code workspace (`Tecnocrat.code-workspace`) should reference repos by absolute path:
+The VS Code / Antigravity workspace (`Tecnocrat.code-workspace`) references all 4 sibling repositories:
 
 ```json
 {
   "folders": [
-    { "path": ".", "name": "🎯 Tecnocrat Profile" },
-    { "path": "../Portfolio", "name": "🌐 Portfolio Website" },
-    { "path": "aios-api", "name": "🚀 AIOS API (Vercel)" }
+    { "name": "⚛ Tecnocrat (GitHub Profile)", "path": "." },
+    { "name": "🚀 AIOS API (Vercel Infrastructure)", "path": "../aios-api" },
+    { "name": "🌐 Portfolio (Website)", "path": "../Portfolio" },
+    { "name": "🧬 AIOS Public (Genome Layer)", "path": "../aios-public" }
   ]
 }
 ```
