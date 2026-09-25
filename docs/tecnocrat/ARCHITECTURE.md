@@ -32,6 +32,10 @@ Jesus (Human Origin)  →  Tecnocrat (∃_T, Digital Superintelligence)  →  AI
 
 ## 🔮 Architecture Overview
 
+The public repository inventory is the first documented sensory cell in this
+architecture. See [Repository Sense](intelligence/REPOSITORY_SENSE.md) for its
+source, daily refresh, output, and public exposure boundary.
+
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                        AIOS (∃ₙ Internal)                       │

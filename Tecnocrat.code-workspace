@@ -5,6 +5,10 @@
 			"path": "."
 		},
 		{
+			"name": "🧠 AIOS (Main Genome / Core Body)",
+			"path": "../AIOS"
+		},
+		{
 			"name": "🚀 AIOS API (Vercel Infrastructure)",
 			"path": "../aios-api"
 		},

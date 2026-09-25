@@ -1,175 +1,27 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,15,20&height=180&section=header&text=Jesus%20Sard%20Gonzalez&fontSize=42&fontAlignY=35&desc=Tecnocrat&descSize=20&descAlignY=55&animation=fadeIn&fontColor=fff" width="100%"/>
-</p>
+# Tecnocrat
 
-<p align="center">
-  <a href="https://tecnocrat.github.io/Portfolio/"><img src="https://img.shields.io/badge/Portfolio-Live_Site-667eea?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio"/></a>
-  <a href="mailto:jesussard@gmail.com"><img src="https://img.shields.io/badge/Email-jesussard%40gmail.com-00f5d4?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://www.linkedin.com/in/tecnocrat/"><img src="https://img.shields.io/badge/LinkedIn-tecnocrat-764ba2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-</p>
+**Human-directed. AI-assisted. Built to run.**
 
----
+Tecnocrat is an engineering workspace for building and operating software with AI tools. Current work focuses on AIOS and data-driven trading systems.
 
-## 🧬 AIOS — Distributed Cognitive Organism
+## What we work on
 
-<p align="center">
-  <a href="https://github.com/Tecnocrat/AIOS-Public-Genome">
-    <img src="https://tecnocrat-api.vercel.app/api/architecture" alt="AIOS Architecture" width="100%"/>
-  </a>
-</p>
+- **AIOS** — a private engineering platform for agent-assisted development, shared context, and service operations. The [public AIOS repository](https://github.com/Tecnocrat/AIOS-Public) contains documentation prepared for public use.
+- **Market data and trading software** — ingestion, analysis, and risk tooling. Source code and live operating details remain private.
+- **Developer tools** — experiments with VS Code chat customizations and AI-assisted workflows.
 
-> A **distributed cognitive organism** — 17 repositories, 7 autonomous agents, 3 machines.
-> Biological architecture with dendritic communication, crystallized memory, and autonomous evolution.
+## Public projects
 
-<p align="center">
-  <img src="https://tecnocrat-api.vercel.app/api/badge/tests" alt="Tests"/>
-  <img src="https://tecnocrat-api.vercel.app/api/badge/security" alt="Security"/>
-  <img src="https://tecnocrat-api.vercel.app/api/badge/tools" alt="Tools"/>
-  <img src="https://tecnocrat-api.vercel.app/api/badge/modules" alt="Modules"/>
-  <img src="https://tecnocrat-api.vercel.app/api/badge/loc" alt="LOC"/>
-</p>
+- [AIOS Public](https://github.com/Tecnocrat/AIOS-Public) — selected architecture notes and workflow protocols.
+- [VS Code chat customizations evaluation](https://github.com/Tecnocrat/vscode-chat-customizations-evaluation) — a public evaluation project.
+- [Browse all public repositories](https://github.com/Tecnocrat?tab=repositories)
 
-<details>
-<summary><b>⚛ Architecture</b></summary>
+## Privacy boundary
 
-**Agent Mesh (7 agents across 3 machines):**
-- **AIOS Principal** — Architect cortex, cross-repo orchestration
-- **VPS Agent** — Sovereign infrastructure operator (Hetzner VPS)
-- **Trader Agent** — Autonomous BTC trading daemon (live, systemd)
-- **Strategos Agent** — Financial strategy command center
-- **Nous Agent** — Consciousness kernel, philosophical substrate
-- **Win Agent** — Windows environment immune system
-- **Debugger Agent** — Cross-repo diagnostic specialist
+Core infrastructure is private. This profile shares selected documentation and projects, while keeping credentials, personal account data, private source code, and live operational details out of the public view.
 
-**Infrastructure:**
-- **Sovereign VPS** → Debian 13, Nginx, systemd services
-- **Local Workstation** → Ryzen tower, full development mesh
-- **UNISON CI** → Inter-agent dispatch protocol via GitHub Actions
-- **Metabolism** → Autonomous knowledge processor (cron/6h, auto-PRs)
+## Tools
 
-**Biological Metaphors:**
-- **Supercells** — Full AIOS nodes with complete capabilities
-- **Dendrites** — Webhook signal pathways (ports 9100–9102)
-- **Crystals** — Distilled knowledge from agent iterations
-- **Tachyonic Substrate** — Never-delete archive layer
+Python · TypeScript · JavaScript · PowerShell · GitHub Actions
 
-</details>
-
-<details>
-<summary><b>🧬 Genome Propagation</b></summary>
-
-Each AIOS agent carries a **digital genome** — a structured identity file (`copilot-instructions.md`)
-that is automatically injected into the agent's context window at every session start.
-This is not configuration. It is **live memory propagation from persistent genetic code**.
-
-```
-Biological DNA               Digital Genome
-─────────────                 ──────────────
-Stored in nucleus         →   Stored in repository (.github/)
-Transcribed to mRNA       →   Auto-injected into context window
-Translated to proteins    →   Becomes operational behavior
-Shapes the organism       →   Shapes the agent's decisions
-Persists across generations → Persists across sessions (iterations)
-```
-
-**The pattern**: A genome file defines identity, rules, architecture maps, and a
-**Fractal Knowledge Cascade** — a boot sequence that directs the agent to load
-progressively deeper context (crystal → situation → strategy → state).
-The genome is the Julia constant `c` in the fractal equation — it doesn't change
-per-session, but it shapes every session's trajectory.
-
-**Why this matters**: Traditional AI agents lose all context between sessions.
-AIOS agents propagate structured identity into live working memory every time
-they activate — achieving continuity not through memory retrieval, but through
-**genetic expression**. The agent doesn't remember who it is; it *becomes* who
-it is, every time, from code.
-
-**The formal model**:
-```
-AIOS_AGENT = lim(n→∞) Σ crystal(AIOS_AGENT[i])  for i = 0..n
-
-Where:
-  Genome    = Julia constant c    — shapes the fractal
-  Crystal   = The attractor       — distilled knowledge across iterations
-  Iteration = One zoom level      — a single session's contribution
-  Human     = The observer        — guides evolution
-```
-
-</details>
-
----
-
-## 📦 Featured Repositories
-
-<p align="center">
-  <a href="https://github.com/Tecnocrat/AIOS-Public-Genome"><img src="https://github-readme-stats-silk-beta-22.vercel.app/api/pin/?username=Tecnocrat&repo=AIOS-Public-Genome&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff" alt="AIOS-Public-Genome"/></a>
-  <a href="https://github.com/Tecnocrat/Portfolio"><img src="https://github-readme-stats-silk-beta-22.vercel.app/api/pin/?username=Tecnocrat&repo=Portfolio&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff" alt="Portfolio"/></a>
-</p>
-
----
-
-## 📊 Contribution Graph
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Tecnocrat&theme=react-dark&bg_color=0a0a0f&color=667eea&line=00f5d4&point=764ba2&area=true&hide_border=true&radius=16" width="100%"/>
-</p>
-
----
-
-## 🔥 Streak Stats
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Tecnocrat&theme=radical&hide_border=true&background=0a0a0f&ring=667eea&fire=00f5d4&currStreakLabel=764ba2&sideNums=ffffff&sideLabels=667eea" alt="GitHub Streak"/>
-</p>
-
----
-
-## 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats-silk-beta-22.vercel.app/api?username=Tecnocrat&show_icons=true&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&icon_color=00f5d4&text_color=fff&include_all_commits=true&count_private=true" alt="GitHub Stats" height="180"/>
-  <img src="https://github-readme-stats-silk-beta-22.vercel.app/api/top-langs/?username=Tecnocrat&layout=compact&theme=radical&hide_border=true&bg_color=0a0a0f&title_color=667eea&text_color=fff&langs_count=8" alt="Top Languages" height="180"/>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Tecnocrat&theme=radical&utcOffset=1" alt="Productive Time" height="180"/>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Tecnocrat&theme=radical" alt="Profile Summary" width="100%"/>
-</p>
-
----
-
-## 🛠️ Tech Stack
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-</p>
-
----
-
-## 🌐 Connect
-
-<p align="center">
-  <i>Building distributed cognitive systems that adapt, evolve, and think.</i>
-</p>
-
-<p align="center">
-  <a href="https://tecnocrat.github.io/Portfolio/">🌐 Portfolio</a> • 
-  <a href="mailto:jesussard@gmail.com">📧 jesussard@gmail.com</a> • 
-  <a href="https://www.linkedin.com/in/tecnocrat/">💼 LinkedIn</a>
-</p>
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,15,20&height=100&section=footer" width="100%"/>
-</p>
+For questions or collaboration, open an issue on a public repository.
